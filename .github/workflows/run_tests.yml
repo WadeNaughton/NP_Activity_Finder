@@ -10,9 +10,6 @@ jobs:
         ports: ['5432:5432']
         env:
           POSTGRES_PASSWORD: postgres
-          map_key: ${{ secrets.MAP_KEY }}
-          parks_key: ${{ secrets.PARKS_KEY }}
-          weather_key: ${{ secrets.WEATHER_KEY }}
         options: >-
           --health-cmd pg_isready
           --health-interval 10s
@@ -35,6 +32,9 @@ jobs:
         PG_USER: postgres
         PG_PASSWORD: postgres
         RAILS_ENV: test
+        map_key: ${{ secrets.MAP_KEY }}
+        parks_key: ${{ secrets.PARKS_KEY }}
+        weather_key: ${{ secrets.WEATHER_KEY }}
         
       run: |
         sudo apt-get -yqq install libpq-dev
