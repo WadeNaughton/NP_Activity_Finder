@@ -3,7 +3,11 @@ on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
-    environment: Configure Warnaldo
+    environment: Warnaldo
+    env:
+      map_key: ${{ secrets.MAP_KEY }}
+      parks_key: ${{ secrets.PARKS_KEY }}
+      weather_key: ${{ secrets.WEATHER_KEY }}
     services: 
       db:
         image: postgres:14
@@ -32,9 +36,6 @@ jobs:
         PG_USER: postgres
         PG_PASSWORD: postgres
         RAILS_ENV: test
-        map_key: ${{ secrets.MAP_KEY }}
-        parks_key: ${{ secrets.PARKS_KEY }}
-        weather_key: ${{ secrets.WEATHER_KEY }}
         
       run: |
         sudo apt-get -yqq install libpq-dev
