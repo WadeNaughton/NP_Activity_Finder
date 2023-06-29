@@ -1,0 +1,40 @@
+name: CI 
+on: [push, pull_request] 
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services: 
+      db:
+        image: postgres:14
+        ports: ['5432:5432']
+        env:
+          POSTGRES_PASSWORD: postgres
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    steps:
+    - uses: actions/checkout@v3
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '2.7.2'
+        bundler-cache: true
+    - uses: borales/actions-yarn@v2.0.0
+      with:
+        cmd: install
+    - name: Build and run tests
+      env:
+        PG_DATABASE: postgres
+        PG_HOST: localhost
+        PG_USER: postgres
+        PG_PASSWORD: postgres
+        RAILS_ENV: test
+        
+      run: |
+        sudo apt-get -yqq install libpq-dev
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+        bundle exec rails db:setup
+        bundle exec rspec spec
