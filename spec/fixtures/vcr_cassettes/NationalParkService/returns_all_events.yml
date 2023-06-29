@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://developer.nps.gov/api/v1/events?api_key=zmuTdZgBkO6cmrf401Mfjpr6hRqdfLwi8NdgROnB&dateEnd=2023-06-23&dateStart=2023-06-16&parkCode=cajo
+    uri: https://developer.nps.gov/api/v1/events?api_key=zmuTdZgBkO6cmrf401Mfjpr6hRqdfLwi8NdgROnB&dateEnd=2023-07-06&dateStart=2023-06-29&parkCode=cajo
     body:
       encoding: US-ASCII
       string: ''
@@ -19,109 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 16 Jun 2023 22:04:03 GMT
-      Content-Type:
-      - application/json;charset=utf-8
-      Content-Length:
-      - '1200'
-      Connection:
-      - keep-alive
-      Access-Control-Allow-Credentials:
-      - 'true'
-      Access-Control-Allow-Headers:
-      - Content-type, Authorization, Access-Control-Allow-Headers, Credentials
-      Access-Control-Allow-Methods:
-      - GET, PUT, POST, PATCH, DELETE, OPTIONS
-      Access-Control-Allow-Origin:
-      - "*"
-      Age:
-      - '2'
-      Allow:
-      - GET
-      Strict-Transport-Security:
-      - max-age=31536000; preload
-      - max-age=31536000; preload
-      Vary:
-      - Accept-Encoding
-      - Accept-Encoding
-      Via:
-      - http/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])
-      X-Api-Umbrella-Request-Id:
-      - c8ooua64ujefoiq83vk0
-      X-Cache:
-      - MISS
-      X-Ratelimit-Limit:
-      - '1000'
-      X-Ratelimit-Remaining:
-      - '950'
-      X-Time-In-Cache-Check:
-      - '0'
-      X-Time-In-Cache-Save:
-      - '0'
-      X-Time-In-Ontaffyrequest:
-      - '0'
-      X-Time-In-Ontaffyrequestend:
-      - '0'
-      X-Time-In-Parse:
-      - '0'
-      X-Time-In-Resource:
-      - '0'
-      X-Time-In-Serialize:
-      - '109'
-      X-Time-In-Taffy:
-      - '0'
-      X-Vcap-Request-Id:
-      - d2613055-ac12-4a97-6fd0-e3564636af3b
-      X-Frame-Options:
-      - DENY
-      X-Content-Type-Options:
-      - nosniff
-      X-Xss-Protection:
-      - 1; mode=block
-    body:
-      encoding: UTF-8
-      string: '{"total":"1","errors":[],"data":[{"location":"","updateuser":"","contactname":"Remi
-        Sarihan","contacttelephonenumber":"(757) 856-1220","recurrencedateend":"","longitude":"","datestart":"2023-06-17","isrecurring":"false","datetimeupdated":"","portalname":"","types":["Cultural\/Craft
-        Demonstration","Exhibition\/Show","Festival","Partner Program","Performance"],"createuser":"","isfree":"true","contactemailaddress":"remi_sarihan@nps.gov","regresurl":"","description":"<p>A
-        Pow Wow is a celebration of Native American culture, with a particular emphasis
-        on dance, music, and craft. Tribes in Virginia host Pow Wows that are open
-        to the public, where visitors are encouraged to learn about the culture and
-        history of Tribal nations.<\/p>\n<p>The Chesapeake National Historic Trail
-        will be tabling at the Mattaponi Indian Tribe &amp; Reservation’s 25th Annual
-        Pow Wow. Find us to chat about opportunities for Tribal youth to explore careers
-        with the National Park Service! We will also have available trail maps, junior
-        ranger books and badges, activities, and more!<\/p>\n<p>Time and location
-        details are forthcoming. <\/p>","images":[{"path":"\/common\/uploads\/event_calendar\/76125FF9-FB7C-58BF-B5E3987F54EA9930.png","credit":"Mattaponi
-        Indian Tribe & Reservation","imageId":"38592","altText":"Poster for Mattaponi
-        Indian Tribe & Reservation 25th Annual Pow Wow","title":"","ordinal":"0","caption":"Poster
-        for Mattaponi Indian Tribe & Reservation 25th Annual Pow Wow","url":"\/common\/uploads\/event_calendar\/76125FF9-FB7C-58BF-B5E3987F54EA9930.png"}],"category":"Special
-        Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"76271262-DB31-8C95-2937EA6AF9024639","isallday":"false","dateend":"2023-06-17","sitecode":"cajo","infourl":"https:\/\/www.mattaponination.com\/pow-wow.html","times":[{"timestart":"10:00
-        AM","timeend":"05:00 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Captain
-        John Smith Chesapeake National Historic Trail","recurrencedatestart":"2023-06-17","date":"2023-06-17","sitetype":"park","feeinfo":"Fee
-        information forthcoming","recurrencerule":"","dates":["2023-06-17"],"datetimecreated":"","title":"Mattaponi
-        Pow Wow - NPS Table","latitude":"","subjectname":"","tags":["Pow Wow","Native
-        American dances","Native American culture","tribal heritage"]}],"dates":"2023-06-17","pagenumber":"1","pagesize":"10"}'
-  recorded_at: Fri, 16 Jun 2023 22:04:03 GMT
-- request:
-    method: get
-    uri: https://developer.nps.gov/api/v1/events?api_key=zmuTdZgBkO6cmrf401Mfjpr6hRqdfLwi8NdgROnB&dateEnd=2023-07-03&dateStart=2023-06-26&parkCode=cajo
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.7.6
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Mon, 26 Jun 2023 22:06:27 GMT
+      - Thu, 29 Jun 2023 20:24:15 GMT
       Content-Type:
       - application/json;charset=utf-8
       Content-Length:
@@ -137,7 +35,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Age:
-      - '0'
+      - '1'
       Allow:
       - GET
       Strict-Transport-Security:
@@ -149,13 +47,13 @@ http_interactions:
       Via:
       - http/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])
       X-Api-Umbrella-Request-Id:
-      - c8v6v735sjfjbqc9la6g
+      - c9139v5nukpa6sd3pdr0
       X-Cache:
       - MISS
       X-Ratelimit-Limit:
       - '1000'
       X-Ratelimit-Remaining:
-      - '964'
+      - '875'
       X-Time-In-Cache-Check:
       - '0'
       X-Time-In-Cache-Save:
@@ -167,13 +65,13 @@ http_interactions:
       X-Time-In-Parse:
       - '0'
       X-Time-In-Resource:
-      - '31'
+      - '16'
       X-Time-In-Serialize:
-      - '109'
+      - '94'
       X-Time-In-Taffy:
       - '0'
       X-Vcap-Request-Id:
-      - ed48f88a-d488-4e51-67fe-faca62b0a30f
+      - 55cb895d-8a47-4c80-7331-b24c9fd25004
       X-Frame-Options:
       - DENY
       X-Content-Type-Options:
@@ -181,28 +79,8 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
     body:
-      encoding: UTF-8
-      string: '{"total":"1","errors":[],"data":[{"location":"3601 Timberneck Farm
-        Rd, Hayes, VA 23072","updateuser":"","contactname":"Remi Sarihan","contacttelephonenumber":"(757)
-        856-1220","recurrencedateend":"","longitude":"-76.539538","datestart":"2023-07-01","isrecurring":"false","datetimeupdated":"","portalname":"","types":["Children’s
-        Program","Partner Program"],"createuser":"","isfree":"false","contactemailaddress":"remi_sarihan@nps.gov","regresurl":"","description":"<p>Join
-        us at Machicomoco State Park for a day of fishing fun!<\/p>\n<p>Junior Angler
-        is a National Park Service program that introduces young anglers to the pastime
-        of fishing. Learn how to set up your fishing pole, cast your line, and reel
-        them in with the help of experienced anglers. Back on shore, chat with a park
-        ranger about the long history of fishing in the Chesapeake Bay. Then, you''ll
-        be sworn in as a Junior Ranger! Participants will take home an activity booklet
-        and a special junior ranger badge. <\/p>\n<p><a href=\"https:\/\/www.nps.gov\/subjects\/fishing\/junior-ranger-fishing.htm\">Learn
-        about the Junior Angler Program<\/a><\/p>\n<p><a href=\"https:\/\/www.dcr.virginia.gov\/state-parks\/machicomoco\">Learn
-        about Machicomoco State Park<\/a><\/p>","images":[{"path":"\/common\/uploads\/event_calendar\/76756690-D77C-0908-7E9EA810A5471CBE.png","credit":"NPS","imageId":"38593","altText":"Junior
-        Angler badge","title":"","ordinal":"0","caption":"Earn your Junior Angler
-        badge!","url":"\/common\/uploads\/event_calendar\/76756690-D77C-0908-7E9EA810A5471CBE.png"}],"category":"Special
-        Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"769BC096-C1C5-B812-0934C3FD4D494BCC","isallday":"false","dateend":"2023-07-01","sitecode":"cajo","infourl":"https:\/\/www.dcr.virginia.gov\/state-parks\/machicomoco","times":[{"timestart":"10:00
-        AM","timeend":"03:00 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"Drop
-        by anytime and stay for as long as you can!","categoryid":"0","eventid":"0","parkfullname":"Captain
-        John Smith Chesapeake National Historic Trail","recurrencedatestart":"2023-07-01","date":"2023-07-01","sitetype":"park","feeinfo":"$5
-        parking fee","recurrencerule":"","dates":["2023-07-01"],"datetimecreated":"","title":"Junior
-        Angler @ Machicomoco State Park","latitude":"37.311523","subjectname":"","tags":["junior
-        angler","Junior Ranger","fishing","water activities","Chesapeake Bay","watershed","estuary"]}],"dates":"2023-07-01","pagenumber":"1","pagesize":"10"}'
-  recorded_at: Mon, 26 Jun 2023 22:06:27 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ0b3RhbCI6IjEiLCJlcnJvcnMiOltdLCJkYXRhIjpbeyJsb2NhdGlvbiI6IjM2MDEgVGltYmVybmVjayBGYXJtIFJkLCBIYXllcywgVkEgMjMwNzIiLCJ1cGRhdGV1c2VyIjoiIiwiY29udGFjdG5hbWUiOiJSZW1pIFNhcmloYW4iLCJjb250YWN0dGVsZXBob25lbnVtYmVyIjoiKDc1NykgODU2LTEyMjAiLCJyZWN1cnJlbmNlZGF0ZWVuZCI6IiIsImxvbmdpdHVkZSI6Ii03Ni41Mzk1MzgiLCJkYXRlc3RhcnQiOiIyMDIzLTA3LTAxIiwiaXNyZWN1cnJpbmciOiJmYWxzZSIsImRhdGV0aW1ldXBkYXRlZCI6IiIsInBvcnRhbG5hbWUiOiIiLCJ0eXBlcyI6WyJDaGlsZHJlbuKAmXMgUHJvZ3JhbSIsIlBhcnRuZXIgUHJvZ3JhbSJdLCJjcmVhdGV1c2VyIjoiIiwiaXNmcmVlIjoiZmFsc2UiLCJjb250YWN0ZW1haWxhZGRyZXNzIjoicmVtaV9zYXJpaGFuQG5wcy5nb3YiLCJyZWdyZXN1cmwiOiIiLCJkZXNjcmlwdGlvbiI6IjxwPkpvaW4gdXMgYXQgTWFjaGljb21vY28gU3RhdGUgUGFya8KgZm9yIGEgZGF5IG9mIGZpc2hpbmcgZnVuITxcL3A+XG48cD5KdW5pb3IgQW5nbGVyIGlzIGEgTmF0aW9uYWwgUGFyayBTZXJ2aWNlIHByb2dyYW0gdGhhdCBpbnRyb2R1Y2VzIHlvdW5nIGFuZ2xlcnMgdG8gdGhlIHBhc3RpbWUgb2YgZmlzaGluZy4gTGVhcm4gaG93IHRvIHNldCB1cCB5b3VyIGZpc2hpbmcgcG9sZSwgY2FzdCB5b3VyIGxpbmUsIGFuZCByZWVsIHRoZW0gaW4gd2l0aCB0aGUgaGVscCBvZiBleHBlcmllbmNlZCBhbmdsZXJzLiBCYWNrIG9uIHNob3JlLCBjaGF0IHdpdGggYSBwYXJrIHJhbmdlciBhYm91dCB0aGUgbG9uZyBoaXN0b3J5IG9mIGZpc2hpbmcgaW4gdGhlIENoZXNhcGVha2UgQmF5LiBUaGVuLCB5b3UnbGwgYmUgc3dvcm4gaW4gYXMgYSBKdW5pb3IgUmFuZ2VyISBQYXJ0aWNpcGFudHMgd2lsbCB0YWtlIGhvbWUgYW4gYWN0aXZpdHkgYm9va2xldCBhbmQgYSBzcGVjaWFsIGp1bmlvciByYW5nZXIgYmFkZ2UuwqA8XC9wPlxuPHA+PGEgaHJlZj1cImh0dHBzOlwvXC93d3cubnBzLmdvdlwvc3ViamVjdHNcL2Zpc2hpbmdcL2p1bmlvci1yYW5nZXItZmlzaGluZy5odG1cIj5MZWFybiBhYm91dCB0aGUgSnVuaW9yIEFuZ2xlciBQcm9ncmFtPFwvYT48XC9wPlxuPHA+PGEgaHJlZj1cImh0dHBzOlwvXC93d3cuZGNyLnZpcmdpbmlhLmdvdlwvc3RhdGUtcGFya3NcL21hY2hpY29tb2NvXCI+TGVhcm4gYWJvdXQgTWFjaGljb21vY28gU3RhdGUgUGFyazxcL2E+PFwvcD4iLCJpbWFnZXMiOlt7InBhdGgiOiJcL2NvbW1vblwvdXBsb2Fkc1wvZXZlbnRfY2FsZW5kYXJcLzc2NzU2NjkwLUQ3N0MtMDkwOC03RTlFQTgxMEE1NDcxQ0JFLnBuZyIsImNyZWRpdCI6Ik5QUyIsImltYWdlSWQiOiIzODU5MyIsImFsdFRleHQiOiJKdW5pb3IgQW5nbGVyIGJhZGdlIiwidGl0bGUiOiIiLCJvcmRpbmFsIjoiMCIsImNhcHRpb24iOiJFYXJuIHlvdXIgSnVuaW9yIEFuZ2xlciBiYWRnZSEiLCJ1cmwiOiJcL2NvbW1vblwvdXBsb2Fkc1wvZXZlbnRfY2FsZW5kYXJcLzc2NzU2NjkwLUQ3N0MtMDkwOC03RTlFQTgxMEE1NDcxQ0JFLnBuZyJ9XSwiY2F0ZWdvcnkiOiJTcGVjaWFsIEV2ZW50IiwiaW1hZ2VpZGxpc3QiOiIiLCJpc3JlZ3Jlc3JlcXVpcmVkIjoiZmFsc2UiLCJvcmdhbml6YXRpb25uYW1lIjoiIiwiaWQiOiI3NjlCQzA5Ni1DMUM1LUI4MTItMDkzNEMzRkQ0RDQ5NEJDQyIsImlzYWxsZGF5IjoiZmFsc2UiLCJkYXRlZW5kIjoiMjAyMy0wNy0wMSIsInNpdGVjb2RlIjoiY2FqbyIsImluZm91cmwiOiJodHRwczpcL1wvd3d3LmRjci52aXJnaW5pYS5nb3ZcL3N0YXRlLXBhcmtzXC9tYWNoaWNvbW9jbyIsInRpbWVzIjpbeyJ0aW1lc3RhcnQiOiIxMDowMCBBTSIsInRpbWVlbmQiOiIwMzowMCBQTSIsInN1bnNldGVuZCI6ImZhbHNlIiwic3VucmlzZXN0YXJ0IjoiZmFsc2UifV0sInJlZ3Jlc2luZm8iOiIiLCJ0aW1laW5mbyI6IkRyb3AgYnkgYW55dGltZSBhbmQgc3RheSBmb3IgYXMgbG9uZyBhcyB5b3UgY2FuISIsImNhdGVnb3J5aWQiOiIwIiwiZXZlbnRpZCI6IjAiLCJwYXJrZnVsbG5hbWUiOiJDYXB0YWluIEpvaG4gU21pdGggQ2hlc2FwZWFrZSBOYXRpb25hbCBIaXN0b3JpYyBUcmFpbCIsInJlY3VycmVuY2VkYXRlc3RhcnQiOiIyMDIzLTA3LTAxIiwiZGF0ZSI6IjIwMjMtMDctMDEiLCJzaXRldHlwZSI6InBhcmsiLCJmZWVpbmZvIjoiJDUgcGFya2luZyBmZWUiLCJyZWN1cnJlbmNlcnVsZSI6IiIsImRhdGVzIjpbIjIwMjMtMDctMDEiXSwiZGF0ZXRpbWVjcmVhdGVkIjoiIiwidGl0bGUiOiJKdW5pb3IgQW5nbGVyIEAgTWFjaGljb21vY28gU3RhdGUgUGFyayIsImxhdGl0dWRlIjoiMzcuMzExNTIzIiwic3ViamVjdG5hbWUiOiIiLCJ0YWdzIjpbImp1bmlvciBhbmdsZXIiLCJKdW5pb3IgUmFuZ2VyIiwiZmlzaGluZyIsIndhdGVyIGFjdGl2aXRpZXMiLCJDaGVzYXBlYWtlIEJheSIsIndhdGVyc2hlZCIsImVzdHVhcnkiXX1dLCJkYXRlcyI6IjIwMjMtMDctMDEiLCJwYWdlbnVtYmVyIjoiMSIsInBhZ2VzaXplIjoiMTAifQ==
+  recorded_at: Thu, 29 Jun 2023 20:24:15 GMT
 recorded_with: VCR 6.1.0
