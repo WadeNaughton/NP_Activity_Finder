@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://developer.nps.gov/api/v1/events?api_key=zmuTdZgBkO6cmrf401Mfjpr6hRqdfLwi8NdgROnB&dateEnd=2023-06-23&dateStart=2023-06-16&parkCode=shen
+    uri: https://developer.nps.gov/api/v1/events?api_key=zmuTdZgBkO6cmrf401Mfjpr6hRqdfLwi8NdgROnB&dateEnd=2023-07-06&dateStart=2023-06-29&parkCode=shen
     body:
       encoding: US-ASCII
       string: ''
@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Fri, 16 Jun 2023 22:04:01 GMT
+      - Thu, 29 Jun 2023 20:23:59 GMT
       Content-Type:
       - application/json;charset=utf-8
       Content-Length:
-      - '2450'
+      - '2535'
       Connection:
       - keep-alive
       Access-Control-Allow-Credentials:
@@ -35,7 +35,7 @@ http_interactions:
       Access-Control-Allow-Origin:
       - "*"
       Age:
-      - '2'
+      - '1'
       Allow:
       - GET
       Strict-Transport-Security:
@@ -47,207 +47,13 @@ http_interactions:
       Via:
       - http/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])
       X-Api-Umbrella-Request-Id:
-      - c8oou9jub5u5s6kl5gmg
+      - c9139r5uqcdvd7hm71n0
       X-Cache:
       - MISS
       X-Ratelimit-Limit:
       - '1000'
       X-Ratelimit-Remaining:
-      - '953'
-      X-Time-In-Cache-Check:
-      - '0'
-      X-Time-In-Cache-Save:
-      - '0'
-      X-Time-In-Ontaffyrequest:
-      - '0'
-      X-Time-In-Ontaffyrequestend:
-      - '0'
-      X-Time-In-Parse:
-      - '0'
-      X-Time-In-Resource:
-      - '62'
-      X-Time-In-Serialize:
-      - '537'
-      X-Time-In-Taffy:
-      - '0'
-      X-Vcap-Request-Id:
-      - 822a23ea-3d85-4526-6cb6-a75fd1008695
-      X-Frame-Options:
-      - DENY
-      X-Content-Type-Options:
-      - nosniff
-      X-Xss-Protection:
-      - 1; mode=block
-    body:
-      encoding: UTF-8
-      string: '{"total":"27","errors":[],"data":[{"location":"Rapidan Camp","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"-78.419520","datestart":"2023-06-16","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Guided
-        Tour","Talk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"https:\/\/www.recreation.gov\/ticket\/facility\/251745","description":"<p>Travel
-        by van 30 minutes to President Hoover’s summer retreat. Reservations are required
-        and can be made online at www.recreation.gov or by calling (877) 444-6777.
-        Byrd Visitor Center (mile 51), 2-½ hrs. Check for other tour times at www.recreation.gov<\/p>\n<p>Wheelchair
-        Accessible. Assistive Listening Available (please arrive 15 minutes early).<\/p>","images":[],"category":"Regular
-        Event","imageidlist":"","isregresrequired":"true","organizationname":"","id":"81F4CF23-91FF-2DC9-85BFA0FC411C2381","isallday":"false","dateend":"2023-06-16","sitecode":"shen","infourl":"","times":[{"timestart":"10:00
-        AM","timeend":"11:30 AM","sunsetend":"false","sunrisestart":"false"},{"timestart":"02:00
-        PM","timeend":"03:30 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"Reservations
-        can be made at www.recreation.gov or by calling (877) 444-6777.","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-16","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=SU,MO,TH,FR,SA;COUNT=0;INTERVAL=1","dates":["2023-06-16","2023-06-17","2023-06-18","2023-06-19","2023-06-22","2023-06-23"],"datetimecreated":"","title":"Historic
-        Rapidan Camp","latitude":"38.490760","subjectname":"","tags":["ranger program","ranger
-        programs","summer","Rapidan Camp"]},{"location":"Lewis Mountain Amphitheater
-        (mile 57.2)","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"","datestart":"2023-06-16","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Campfire\/Evening
-        Program","Talk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Join
-        a Ranger for a national park tradition while learning more about the natural
-        or cultural history of Shenandoah. Check visitor centers for topics. Dress
-        for cool mountain nights and bring a flashlight. Wheelchair Accessible.<\/p>\n<p><em>Lewis
-        Mountain Amphitheater (mile 57.2), 45 min<\/em><\/p>","images":[],"category":"Regular
-        Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"7CB12392-B56D-DD08-CCBFC0D1E1209A51","isallday":"false","dateend":"2023-06-16","sitecode":"shen","infourl":"","times":[{"timestart":"07:30
-        PM","timeend":"08:15 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-16","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=FR;COUNT=0;INTERVAL=1","dates":["2023-06-16","2023-06-23"],"datetimecreated":"","title":"Lewis
-        Mountain Evening Program","latitude":"","subjectname":"","tags":["ranger program","ranger
-        programs","summer","Lewis Mountain","evening program"]},{"location":"Loft
-        Mountain Amphitheater (mile 79.5), 45 min.","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"-78.669036","datestart":"2023-06-16","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Campfire\/Evening
-        Program","Talk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Join
-        a Ranger for an exploration of the night sky. Bring a lawn chair or blanket
-        and dress for cool mountain nights. Wheelchair Accessible. Assistive Listening
-        Available (please arrive 15 minutes early).<\/p>\n<p><em>Loft Mountain Amphitheater
-        (mile 79.5), 45 min.<\/em><\/p>","images":[],"category":"Regular Event","imageidlist":"","isregresrequired":"true","organizationname":"","id":"8252A489-E0FA-84AB-17AE0BFF3128DBEE","isallday":"false","dateend":"2023-06-16","sitecode":"shen","infourl":"","times":[{"timestart":"09:30
-        PM","timeend":"10:15 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-16","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=FR;COUNT=0;INTERVAL=1","dates":["2023-06-16","2023-06-23"],"datetimecreated":"","title":"Loft
-        Mountain Star Party","latitude":"38.250220","subjectname":"","tags":["ranger
-        program","ranger programs","summer","Loft Mountain","evening program"]},{"location":"Park
-        at Skyland Conference Hall and follow the sign to walk up road (mile 42.5).","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"","datestart":"2023-06-16","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Guided
-        Tour","Other"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Tour
-        Addie Pollock’s restored bungalow and hear the stories of early Skyland. Wheelchair
-        Accessible.<\/p>\n<p><em>Park at Skyland Conference Hall and follow the sign
-        to walk up road (mile 42.5).<\/em><\/p>","images":[],"category":"Regular Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"7467095F-DEC2-269B-58C74BA841015F48","isallday":"false","dateend":"2023-06-16","sitecode":"shen","infourl":"","times":[{"timestart":"02:00
-        PM","timeend":"04:00 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-16","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=SU,MO,TH,FR,SA;COUNT=0;INTERVAL=1","dates":["2023-06-16","2023-06-17","2023-06-18","2023-06-19","2023-06-22","2023-06-23"],"datetimecreated":"","title":"Massanutten
-        Lodge Open House","latitude":"","subjectname":"","tags":["ranger program","summer","Skyland","Addie
-        Pollock","Massanutten Lodge"]},{"location":"Located at Skyland lower-level
-        (mile 42.5).","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"","datestart":"2023-06-16","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Talk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Learn
-        the history of Skyland including Addie Pollock’s restored bungalow and hear
-        the stories of early Skland Resort. Wheelchair Accessible.<\/p>\n<p><em>Located
-        at Skyland lower-level (mile 42.5). Park near Skyland Conference Hall and
-        follow the sign to walk up road - 20 minutes.<\/em><\/p>","images":[],"category":"Regular
-        Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"77438DD9-C9AC-4401-5F802B2A68AF023F","isallday":"false","dateend":"2023-06-16","sitecode":"shen","infourl":"","times":[{"timestart":"01:30
-        PM","timeend":"02:00 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-16","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=SU,MO,TH,FR,SA;COUNT=0;INTERVAL=1","dates":["2023-06-16","2023-06-17","2023-06-18","2023-06-19","2023-06-22","2023-06-23"],"datetimecreated":"","title":"Massanutten
-        Lodge Porch Talk","latitude":"","subjectname":"","tags":["ranger program","summer","Skyland","Massanutten
-        Lodge","Addie Pollock"]},{"location":"Mathews Arm Campground Amphitheater
-        (mile 22.2)","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"","datestart":"2023-06-16","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Campfire\/Evening
-        Program","Talk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Join
-        a Ranger for a national park tradition while learning more about the natural
-        or cultural history of Shenandoah. Check visitor centers for topics. Dress
-        for cool mountain nights and bring a flashlight. Wheelchair Accessible. Assistive
-        Listening Available (please arrive 15 minutes early).<\/p>\n<p><em>Mathews
-        Arm Campground Amphitheater (mile 22.2), 45 minutes.<\/em><\/p>","images":[],"category":"Regular
-        Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"A0C0E97E-A54F-737B-761D2883DEB9C74F","isallday":"false","dateend":"2023-06-16","sitecode":"shen","infourl":"","times":[{"timestart":"07:30
-        PM","timeend":"08:15 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-16","sitetype":"park","feeinfo":"Ranger
-        programs are free. However, there is a $30 entrance fee to the park (good
-        for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=FR,SA;COUNT=0;INTERVAL=1","dates":["2023-06-16","2023-06-17","2023-06-23"],"datetimecreated":"","title":"Mathews
-        Arm Evening Program","latitude":"","subjectname":"","tags":["ranger program","summer","Mathews
-        Arm Campground","evening program"]},{"location":"Visitor Center at Big Meadows
-        (mile 51)","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"","datestart":"2023-06-16","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Walk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Experience
-        a rare high-elevation wetland meadow on this gentle walk. Assistive Listening
-        Available (please arrive 15 minutes early).<\/p>\n<p><em>Byrd Visitor Center
-        (mile 51), 1-½ hrs, 1-mile walk.<\/em><\/p>","images":[],"category":"Regular
-        Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"4CCA5699-EB0E-C64B-AA50246C7BDB5E7E","isallday":"false","dateend":"2023-06-16","sitecode":"shen","infourl":"","times":[{"timestart":"10:00
-        AM","timeend":"11:30 AM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-16","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=MO,WE,FR;COUNT=0;INTERVAL=1","dates":["2023-06-16","2023-06-19","2023-06-21","2023-06-23"],"datetimecreated":"","title":"Meadow
-        Walk","latitude":"","subjectname":"","tags":["ranger program","summer","meadow","Big
-        Meadows","walk"]},{"location":"","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"","datestart":"2023-06-16","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Talk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Come
-        and enjoy this short talk on the various subjects that make Shenandoah great.
-        Wheelchair Accessible. Assistive Listening Available (please arrive 15 minutes
-        early).<\/p>\n<p><em>Byrd Visitor Center (mile 51), 15-25 min. <\/em><\/p>","images":[],"category":"Regular
-        Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"7C2FDCE4-D9AA-754B-FAD9EEA2F77465C0","isallday":"false","dateend":"2023-06-16","sitecode":"shen","infourl":"","times":[{"timestart":"01:30
-        PM","timeend":"01:45 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-16","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=SU,MO,TU,WE,TH,FR,SA;COUNT=0;INTERVAL=1","dates":["2023-06-16","2023-06-17","2023-06-18","2023-06-19","2023-06-20","2023-06-21","2023-06-22","2023-06-23"],"datetimecreated":"","title":"Ranger
-        Porch Talk at Big Meadows","latitude":"","subjectname":"","tags":["ranger
-        program","ranger programs","summer","Big Meadows"]},{"location":"Dickey Ridge
-        Visitor Center Lawn (mile 4.6)","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"-78.204659","datestart":"2023-06-16","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Talk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Come
-        and enjoy this short talk on the various subjects that make Shenandoah great. Wheelchair
-        Accessible. Assistive Listening Available (please arrive 15 minutes early).<\/p>\n<p><em>Dickey
-        Ridge Visitor Center Lawn (mile 4.6), 20-30 min.<\/em><\/p>","images":[],"category":"Regular
-        Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"7D09F01B-EBCB-A784-DE58A7AF33A270FC","isallday":"false","dateend":"2023-06-16","sitecode":"shen","infourl":"","times":[{"timestart":"11:00
-        AM","timeend":"11:30 AM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-16","sitetype":"park","feeinfo":"Ranger
-        programs are free. However, there is a $30 entrance fee to the park (good
-        for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=DAILY;WKST=SU;COUNT=0;INTERVAL=1","dates":["2023-06-16","2023-06-17","2023-06-18","2023-06-19","2023-06-20","2023-06-21","2023-06-22","2023-06-23"],"datetimecreated":"","title":"Ranger
-        Talk at Dickey Ridge","latitude":"38.871724","subjectname":"","tags":["ranger
-        program","Dickey Ridge","summer"]},{"location":"Skyland Amphitheater (42.5)","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"","datestart":"2023-06-16","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Campfire\/Evening
-        Program","Talk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p> Join
-        a Ranger for a national park tradition while learning more about the natural
-        or cultural history of Shenandoah. Check visitor centers for topics. Dress
-        for cool mountain nights. Wheelchair Accessible. Assistive Listening Available
-        (please arrive 15 minutes early).<\/p>\n<p><em>Skyland Amphitheater (42.5),
-        45 minutes.<\/em><\/p>","images":[],"category":"Regular Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"7ECD8A76-9C73-341C-51D1381BB67A56D7","isallday":"false","dateend":"2023-06-16","sitecode":"shen","infourl":"","times":[{"timestart":"08:30
-        PM","timeend":"09:15 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-16","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=MO,WE,FR;COUNT=0;INTERVAL=1","dates":["2023-06-16","2023-06-19","2023-06-21","2023-06-23"],"datetimecreated":"","title":"Skyland
-        Evening Program","latitude":"","subjectname":"","tags":["ranger program","summer","Skyland","evening
-        program"]}],"dates":"2023-06-16,2023-06-17,2023-06-18,2023-06-19,2023-06-20,2023-06-21,2023-06-22,2023-06-23","pagenumber":"1","pagesize":"10"}'
-  recorded_at: Fri, 16 Jun 2023 22:04:01 GMT
-- request:
-    method: get
-    uri: https://developer.nps.gov/api/v1/events?api_key=zmuTdZgBkO6cmrf401Mfjpr6hRqdfLwi8NdgROnB&dateEnd=2023-07-03&dateStart=2023-06-26&parkCode=shen
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.7.6
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Date:
-      - Mon, 26 Jun 2023 22:06:25 GMT
-      Content-Type:
-      - application/json;charset=utf-8
-      Content-Length:
-      - '2484'
-      Connection:
-      - keep-alive
-      Access-Control-Allow-Credentials:
-      - 'true'
-      Access-Control-Allow-Headers:
-      - Content-type, Authorization, Access-Control-Allow-Headers, Credentials
-      Access-Control-Allow-Methods:
-      - GET, PUT, POST, PATCH, DELETE, OPTIONS
-      Access-Control-Allow-Origin:
-      - "*"
-      Age:
-      - '2'
-      Allow:
-      - GET
-      Strict-Transport-Security:
-      - max-age=31536000; preload
-      - max-age=31536000; preload
-      Vary:
-      - Accept-Encoding
-      - Accept-Encoding
-      Via:
-      - http/1.1 api-umbrella (ApacheTrafficServer [cMsSf ])
-      X-Api-Umbrella-Request-Id:
-      - c8v6v6b6i17ghndol1m0
-      X-Cache:
-      - MISS
-      X-Ratelimit-Limit:
-      - '1000'
-      X-Ratelimit-Remaining:
-      - '965'
+      - '894'
       X-Time-In-Cache-Check:
       - '0'
       X-Time-In-Cache-Save:
@@ -261,11 +67,11 @@ http_interactions:
       X-Time-In-Resource:
       - '31'
       X-Time-In-Serialize:
-      - '573'
+      - '453'
       X-Time-In-Taffy:
       - '0'
       X-Vcap-Request-Id:
-      - 95fffe29-ec9f-47c9-56fd-69e62e1759f7
+      - bc873046-f651-4312-5961-a2d790f5ddfa
       X-Frame-Options:
       - DENY
       X-Content-Type-Options:
@@ -273,110 +79,8 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
     body:
-      encoding: UTF-8
-      string: '{"total":"26","errors":[],"data":[{"location":"Meet at Milam Gap parking
-        area (mile 52.4)","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"-78.445623","datestart":"2023-06-26","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Hike"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Take
-        a short journey on this famous trail.<\/p>\n<p><em>Meet at Milam Gap parking
-        area (mile 52.4), 2 hrs, gentle 2.1 miles.<\/em><\/p>","images":[],"category":"Regular
-        Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"7C4A9632-03BA-BFE3-11E1F14D692325C9","isallday":"false","dateend":"2023-06-26","sitecode":"shen","infourl":"","times":[{"timestart":"02:00
-        PM","timeend":"04:00 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-26","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=MO,WE;COUNT=0;INTERVAL=1","dates":["2023-06-26","2023-06-28","2023-07-03"],"datetimecreated":"","title":"Appalachian
-        Trail Hike","latitude":"38.500371","subjectname":"","tags":["ranger program","ranger
-        programs","summer","Milam Gap Trailhead","Appalachian Trail"]},{"location":"Rapidan
-        Camp","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"-78.419520","datestart":"2023-06-26","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Guided
-        Tour","Talk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"https:\/\/www.recreation.gov\/ticket\/facility\/251745","description":"<p>Travel
-        by van 30 minutes to President Hoover’s summer retreat. Reservations are required
-        and can be made online at www.recreation.gov or by calling (877) 444-6777.
-        Byrd Visitor Center (mile 51), 2-½ hrs. Check for other tour times at www.recreation.gov<\/p>\n<p>Wheelchair
-        Accessible. Assistive Listening Available (please arrive 15 minutes early).<\/p>","images":[],"category":"Regular
-        Event","imageidlist":"","isregresrequired":"true","organizationname":"","id":"81F4CF23-91FF-2DC9-85BFA0FC411C2381","isallday":"false","dateend":"2023-06-26","sitecode":"shen","infourl":"","times":[{"timestart":"10:00
-        AM","timeend":"11:30 AM","sunsetend":"false","sunrisestart":"false"},{"timestart":"02:00
-        PM","timeend":"03:30 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"Reservations
-        can be made at www.recreation.gov or by calling (877) 444-6777.","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-26","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=SU,MO,TH,FR,SA;COUNT=0;INTERVAL=1","dates":["2023-06-26","2023-06-29","2023-06-30","2023-07-01","2023-07-02","2023-07-03"],"datetimecreated":"","title":"Historic
-        Rapidan Camp","latitude":"38.490760","subjectname":"","tags":["ranger program","ranger
-        programs","summer","Rapidan Camp"]},{"location":"Park at Skyland Conference
-        Hall and follow the sign to walk up road (mile 42.5).","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"","datestart":"2023-06-26","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Guided
-        Tour","Other"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Tour
-        Addie Pollock’s restored bungalow and hear the stories of early Skyland. Wheelchair
-        Accessible.<\/p>\n<p><em>Park at Skyland Conference Hall and follow the sign
-        to walk up road (mile 42.5).<\/em><\/p>","images":[],"category":"Regular Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"7467095F-DEC2-269B-58C74BA841015F48","isallday":"false","dateend":"2023-06-26","sitecode":"shen","infourl":"","times":[{"timestart":"02:00
-        PM","timeend":"04:00 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-26","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=SU,MO,TH,FR,SA;COUNT=0;INTERVAL=1","dates":["2023-06-26","2023-06-29","2023-06-30","2023-07-01","2023-07-02","2023-07-03"],"datetimecreated":"","title":"Massanutten
-        Lodge Open House","latitude":"","subjectname":"","tags":["ranger program","summer","Skyland","Addie
-        Pollock","Massanutten Lodge"]},{"location":"Located at Skyland lower-level
-        (mile 42.5).","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"","datestart":"2023-06-26","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Talk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Learn
-        the history of Skyland including Addie Pollock’s restored bungalow and hear
-        the stories of early Skland Resort. Wheelchair Accessible.<\/p>\n<p><em>Located
-        at Skyland lower-level (mile 42.5). Park near Skyland Conference Hall and
-        follow the sign to walk up road - 20 minutes.<\/em><\/p>","images":[],"category":"Regular
-        Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"77438DD9-C9AC-4401-5F802B2A68AF023F","isallday":"false","dateend":"2023-06-26","sitecode":"shen","infourl":"","times":[{"timestart":"01:30
-        PM","timeend":"02:00 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-26","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=SU,MO,TH,FR,SA;COUNT=0;INTERVAL=1","dates":["2023-06-26","2023-06-29","2023-06-30","2023-07-01","2023-07-02","2023-07-03"],"datetimecreated":"","title":"Massanutten
-        Lodge Porch Talk","latitude":"","subjectname":"","tags":["ranger program","summer","Skyland","Massanutten
-        Lodge","Addie Pollock"]},{"location":"Visitor Center at Big Meadows (mile
-        51)","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"","datestart":"2023-06-26","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Walk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Experience
-        a rare high-elevation wetland meadow on this gentle walk. Assistive Listening
-        Available (please arrive 15 minutes early).<\/p>\n<p><em>Byrd Visitor Center
-        (mile 51), 1-½ hrs, 1-mile walk.<\/em><\/p>","images":[],"category":"Regular
-        Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"4CCA5699-EB0E-C64B-AA50246C7BDB5E7E","isallday":"false","dateend":"2023-06-26","sitecode":"shen","infourl":"","times":[{"timestart":"10:00
-        AM","timeend":"11:30 AM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-26","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=MO,WE,FR;COUNT=0;INTERVAL=1","dates":["2023-06-26","2023-06-28","2023-06-30","2023-07-03"],"datetimecreated":"","title":"Meadow
-        Walk","latitude":"","subjectname":"","tags":["ranger program","summer","meadow","Big
-        Meadows","walk"]},{"location":"","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"","datestart":"2023-06-26","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Talk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Come
-        and enjoy this short talk on the various subjects that make Shenandoah great.
-        Wheelchair Accessible. Assistive Listening Available (please arrive 15 minutes
-        early).<\/p>\n<p><em>Byrd Visitor Center (mile 51), 15-25 min. <\/em><\/p>","images":[],"category":"Regular
-        Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"7C2FDCE4-D9AA-754B-FAD9EEA2F77465C0","isallday":"false","dateend":"2023-06-26","sitecode":"shen","infourl":"","times":[{"timestart":"01:30
-        PM","timeend":"01:45 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-26","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=SU,MO,TU,WE,TH,FR,SA;COUNT=0;INTERVAL=1","dates":["2023-06-26","2023-06-27","2023-06-28","2023-06-29","2023-06-30","2023-07-01","2023-07-02","2023-07-03"],"datetimecreated":"","title":"Ranger
-        Porch Talk at Big Meadows","latitude":"","subjectname":"","tags":["ranger
-        program","ranger programs","summer","Big Meadows"]},{"location":"Dickey Ridge
-        Visitor Center Lawn (mile 4.6)","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"-78.204659","datestart":"2023-06-26","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Talk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Come
-        and enjoy this short talk on the various subjects that make Shenandoah great. Wheelchair
-        Accessible. Assistive Listening Available (please arrive 15 minutes early).<\/p>\n<p><em>Dickey
-        Ridge Visitor Center Lawn (mile 4.6), 20-30 min.<\/em><\/p>","images":[],"category":"Regular
-        Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"7D09F01B-EBCB-A784-DE58A7AF33A270FC","isallday":"false","dateend":"2023-06-26","sitecode":"shen","infourl":"","times":[{"timestart":"11:00
-        AM","timeend":"11:30 AM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-26","sitetype":"park","feeinfo":"Ranger
-        programs are free. However, there is a $30 entrance fee to the park (good
-        for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=DAILY;WKST=SU;COUNT=0;INTERVAL=1","dates":["2023-06-26","2023-06-27","2023-06-28","2023-06-29","2023-06-30","2023-07-01","2023-07-02","2023-07-03"],"datetimecreated":"","title":"Ranger
-        Talk at Dickey Ridge","latitude":"38.871724","subjectname":"","tags":["ranger
-        program","Dickey Ridge","summer"]},{"location":"Skyland Amphitheater (42.5)","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"","datestart":"2023-06-26","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Campfire\/Evening
-        Program","Talk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p> Join
-        a Ranger for a national park tradition while learning more about the natural
-        or cultural history of Shenandoah. Check visitor centers for topics. Dress
-        for cool mountain nights. Wheelchair Accessible. Assistive Listening Available
-        (please arrive 15 minutes early).<\/p>\n<p><em>Skyland Amphitheater (42.5),
-        45 minutes.<\/em><\/p>","images":[],"category":"Regular Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"7ECD8A76-9C73-341C-51D1381BB67A56D7","isallday":"false","dateend":"2023-06-26","sitecode":"shen","infourl":"","times":[{"timestart":"08:30
-        PM","timeend":"09:15 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-26","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=MO,WE,FR;COUNT=0;INTERVAL=1","dates":["2023-06-26","2023-06-28","2023-06-30","2023-07-03"],"datetimecreated":"","title":"Skyland
-        Evening Program","latitude":"","subjectname":"","tags":["ranger program","summer","Skyland","evening
-        program"]},{"location":"Byrd Visitor Center (mile 51)","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"-78.436783","datestart":"2023-06-26","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Talk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Celebrate
-        Shenandoah’s largest mammal at this short talk. Wheelchair Accessible. Assistive
-        Listening Available (please arrive 15 minutes early).<\/p>\n<p><em>Byrd Visitor
-        Center (mile 51), 20-30 min. <\/em><\/p>","images":[],"category":"Regular
-        Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"7B9346D5-F08C-BCB4-AB243DE00638F38E","isallday":"false","dateend":"2023-06-26","sitecode":"shen","infourl":"","times":[{"timestart":"11:30
-        AM","timeend":"12:00 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-26","sitetype":"park","feeinfo":"However,
-        there is a $30 entrance fee to the park (good for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=SU,MO,TU,WE,TH,FR,SA;COUNT=0;INTERVAL=1","dates":["2023-06-26","2023-06-27","2023-06-28","2023-06-29","2023-06-30","2023-07-01","2023-07-02","2023-07-03"],"datetimecreated":"","title":"Wild
-        About Bears! at Big Meadows","latitude":"38.517718","subjectname":"","tags":["ranger
-        program","summer","Big Meadows","bears","black bear"]},{"location":"Elkwallow
-        Wayside (mile 24)","updateuser":"","contactname":"","contacttelephonenumber":"","recurrencedateend":"2023-09-04","longitude":"-78.309060","datestart":"2023-06-26","isrecurring":"true","datetimeupdated":"","portalname":"","types":["Talk"],"createuser":"","isfree":"true","contactemailaddress":"","regresurl":"","description":"<p>Celebrate
-        Shenandoah’s largest mammal at this short talk.<\/p>\n<p><em>Elkwallow Wayside
-        (mile 24), 20-30 min<\/em><\/p>","images":[],"category":"Regular Event","imageidlist":"","isregresrequired":"false","organizationname":"","id":"A052938F-9363-8278-0D3558D95E3705B0","isallday":"false","dateend":"2023-06-26","sitecode":"shen","infourl":"","times":[{"timestart":"01:00
-        PM","timeend":"01:30 PM","sunsetend":"false","sunrisestart":"false"}],"regresinfo":"","timeinfo":"","categoryid":"0","eventid":"0","parkfullname":"Shenandoah
-        National Park","recurrencedatestart":"2023-05-26","date":"2023-06-26","sitetype":"park","feeinfo":"Ranger
-        programs are free. However, there is a $30 entrance fee to the park (good
-        for seven days).","recurrencerule":"DTSTART=20230526T040000Z;UNTIL=20230904T040000Z;FREQ=WEEKLY;WKST=SU;BYDAY=SU,MO,TU,FR,SA;COUNT=0;INTERVAL=1","dates":["2023-06-26","2023-06-27","2023-06-30","2023-07-01","2023-07-02","2023-07-03"],"datetimecreated":"","title":"Wild
-        About Bears! at Elkwallow","latitude":"38.738630","subjectname":"","tags":["ranger
-        program","summer","Elkwallow Wayside"]}],"dates":"2023-06-26,2023-06-27,2023-06-28,2023-06-29,2023-06-30,2023-07-01,2023-07-02,2023-07-03","pagenumber":"1","pagesize":"10"}'
-  recorded_at: Mon, 26 Jun 2023 22:06:25 GMT
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJ0b3RhbCI6IjI2IiwiZXJyb3JzIjpbXSwiZGF0YSI6W3sibG9jYXRpb24iOiJCaWcgTWVhZG93cyBBbXBoaXRoZWF0ZXIgKG1pbGUgNTEpIiwidXBkYXRldXNlciI6IiIsImNvbnRhY3RuYW1lIjoiIiwiY29udGFjdHRlbGVwaG9uZW51bWJlciI6IiIsInJlY3VycmVuY2VkYXRlZW5kIjoiMjAyMy0wOS0wNCIsImxvbmdpdHVkZSI6Ii03OC40Mzk3MDUiLCJkYXRlc3RhcnQiOiIyMDIzLTA2LTI5IiwiaXNyZWN1cnJpbmciOiJ0cnVlIiwiZGF0ZXRpbWV1cGRhdGVkIjoiIiwicG9ydGFsbmFtZSI6IiIsInR5cGVzIjpbIkNhbXBmaXJlXC9FdmVuaW5nIFByb2dyYW0iLCJUYWxrIl0sImNyZWF0ZXVzZXIiOiIiLCJpc2ZyZWUiOiJ0cnVlIiwiY29udGFjdGVtYWlsYWRkcmVzcyI6IiIsInJlZ3Jlc3VybCI6IiIsImRlc2NyaXB0aW9uIjoiPHA+Sm9pbiBhIFJhbmdlciBmb3IgYSBuYXRpb25hbCBwYXJrIHRyYWRpdGlvbiB3aGlsZSBsZWFybmluZyBtb3JlIGFib3V0IHRoZSBuYXR1cmFsIG9yIGN1bHR1cmFsIGhpc3Rvcnkgb2YgU2hlbmFuZG9haC4gQ2hlY2sgdmlzaXRvciBjZW50ZXJzIGZvciB0b3BpY3MuIERyZXNzIGZvciBjb29sIG1vdW50YWluIG5pZ2h0cyBhbmQgYnJpbmcgYSBmbGFzaGxpZ2h0LiBXaGVlbGNoYWlyIEFjY2Vzc2libGUuwqBBc3Npc3RpdmUgTGlzdGVuaW5nIEF2YWlsYWJsZSAocGxlYXNlIGFycml2ZSAxNSBtaW51dGVzIGVhcmx5KS48XC9wPlxuPHA+PGVtPkJpZyBNZWFkb3dzIEFtcGhpdGhlYXRlciAobWlsZSA1MSksIDQ1IG1pbi48XC9lbT48XC9wPiIsImltYWdlcyI6W10sImNhdGVnb3J5IjoiUmVndWxhciBFdmVudCIsImltYWdlaWRsaXN0IjoiIiwiaXNyZWdyZXNyZXF1aXJlZCI6ImZhbHNlIiwib3JnYW5pemF0aW9ubmFtZSI6IiIsImlkIjoiN0QwRTY5MTAtOUUzOS0yMkI3LTM5MjNBQjE4MkQ1MjRGODEiLCJpc2FsbGRheSI6ImZhbHNlIiwiZGF0ZWVuZCI6IjIwMjMtMDYtMjkiLCJzaXRlY29kZSI6InNoZW4iLCJpbmZvdXJsIjoiIiwidGltZXMiOlt7InRpbWVzdGFydCI6IjA4OjMwIFBNIiwidGltZWVuZCI6IjA5OjE1IFBNIiwic3Vuc2V0ZW5kIjoiZmFsc2UiLCJzdW5yaXNlc3RhcnQiOiJmYWxzZSJ9XSwicmVncmVzaW5mbyI6IiIsInRpbWVpbmZvIjoiIiwiY2F0ZWdvcnlpZCI6IjAiLCJldmVudGlkIjoiMCIsInBhcmtmdWxsbmFtZSI6IlNoZW5hbmRvYWggTmF0aW9uYWwgUGFyayIsInJlY3VycmVuY2VkYXRlc3RhcnQiOiIyMDIzLTA1LTI2IiwiZGF0ZSI6IjIwMjMtMDYtMjkiLCJzaXRldHlwZSI6InBhcmsiLCJmZWVpbmZvIjoiSG93ZXZlciwgdGhlcmUgaXMgYSAkMzAgZW50cmFuY2UgZmVlIHRvIHRoZSBwYXJrIChnb29kIGZvciBzZXZlbiBkYXlzKS4iLCJyZWN1cnJlbmNlcnVsZSI6IkRUU1RBUlQ9MjAyMzA1MjZUMDQwMDAwWjtVTlRJTD0yMDIzMDkwNFQwNDAwMDBaO0ZSRVE9V0VFS0xZO1dLU1Q9U1U7QllEQVk9U1UsVFUsVEgsU0E7Q09VTlQ9MDtJTlRFUlZBTD0xIiwiZGF0ZXMiOlsiMjAyMy0wNi0yOSIsIjIwMjMtMDctMDEiLCIyMDIzLTA3LTAyIiwiMjAyMy0wNy0wNCIsIjIwMjMtMDctMDYiXSwiZGF0ZXRpbWVjcmVhdGVkIjoiIiwidGl0bGUiOiJCaWcgTWVhZG93cyBFdmVuaW5nIFByb2dyYW0iLCJsYXRpdHVkZSI6IjM4LjUzMTE3MiIsInN1YmplY3RuYW1lIjoiIiwidGFncyI6WyJyYW5nZXIgcHJvZ3JhbSIsInJhbmdlciBwcm9ncmFtcyIsInN1bW1lciIsIkJpZyBNZWFkb3dzIiwiQmlnIE1lYWRvd3MgQW1waGl0aGVhdGVyIiwiZXZlbmluZyBwcm9ncmFtIl19LHsibG9jYXRpb24iOiJQYXJrIGF0IFJhcGlkYW4gRmlyZSBSb2FkIChtaWxlIDUxLjIpIiwidXBkYXRldXNlciI6IiIsImNvbnRhY3RuYW1lIjoiIiwiY29udGFjdHRlbGVwaG9uZW51bWJlciI6IiIsInJlY3VycmVuY2VkYXRlZW5kIjoiMjAyMy0wOS0wNCIsImxvbmdpdHVkZSI6Ii03OC40NDAxNDkiLCJkYXRlc3RhcnQiOiIyMDIzLTA2LTI5IiwiaXNyZWN1cnJpbmciOiJ0cnVlIiwiZGF0ZXRpbWV1cGRhdGVkIjoiIiwicG9ydGFsbmFtZSI6IiIsInR5cGVzIjpbIkNhbXBmaXJlXC9FdmVuaW5nIFByb2dyYW0iLCJUYWxrIl0sImNyZWF0ZXVzZXIiOiIiLCJpc2ZyZWUiOiJ0cnVlIiwiY29udGFjdGVtYWlsYWRkcmVzcyI6IiIsInJlZ3Jlc3VybCI6IiIsImRlc2NyaXB0aW9uIjoiPHA+Sm9pbiBhIFJhbmdlciBmb3IgYW4gZXhwbG9yYXRpb24gb2YgdGhlIG5pZ2h0IHNreS4gQnJpbmcgYSBsYXduIGNoYWlyIG9yIGJsYW5rZXQgYW5kIGRyZXNzIGZvciBjb29sIG1vdW50YWluIG5pZ2h0cy48XC9wPlxuPHA+PGVtPlBhcmsgYXQgUmFwaWRhbiBGaXJlIFJvYWQgKG1pbGUgNTEuMiksIDQ1IG1pbi48XC9lbT48XC9wPlxuPHA+wqA8XC9wPiIsImltYWdlcyI6W10sImNhdGVnb3J5IjoiUmVndWxhciBFdmVudCIsImltYWdlaWRsaXN0IjoiIiwiaXNyZWdyZXNyZXF1aXJlZCI6ImZhbHNlIiwib3JnYW5pemF0aW9ubmFtZSI6IiIsImlkIjoiODE4RTIzNTctQUM1OC1BMzVDLURBOEMxNjgwNTY2OTRGMUMiLCJpc2FsbGRheSI6ImZhbHNlIiwiZGF0ZWVuZCI6IjIwMjMtMDYtMjkiLCJzaXRlY29kZSI6InNoZW4iLCJpbmZvdXJsIjoiIiwidGltZXMiOlt7InRpbWVzdGFydCI6IjA5OjMwIFBNIiwidGltZWVuZCI6IjEwOjE1IFBNIiwic3Vuc2V0ZW5kIjoiZmFsc2UiLCJzdW5yaXNlc3RhcnQiOiJmYWxzZSJ9XSwicmVncmVzaW5mbyI6IiIsInRpbWVpbmZvIjoiIiwiY2F0ZWdvcnlpZCI6IjAiLCJldmVudGlkIjoiMCIsInBhcmtmdWxsbmFtZSI6IlNoZW5hbmRvYWggTmF0aW9uYWwgUGFyayIsInJlY3VycmVuY2VkYXRlc3RhcnQiOiIyMDIzLTA1LTI2IiwiZGF0ZSI6IjIwMjMtMDYtMjkiLCJzaXRldHlwZSI6InBhcmsiLCJmZWVpbmZvIjoiSG93ZXZlciwgdGhlcmUgaXMgYSAkMzAgZW50cmFuY2UgZmVlIHRvIHRoZSBwYXJrIChnb29kIGZvciBzZXZlbiBkYXlzKS4iLCJyZWN1cnJlbmNlcnVsZSI6IkRUU1RBUlQ9MjAyMzA1MjZUMDQwMDAwWjtVTlRJTD0yMDIzMDkwNFQwNDAwMDBaO0ZSRVE9V0VFS0xZO1dLU1Q9U1U7QllEQVk9VFUsVEgsU0E7Q09VTlQ9MDtJTlRFUlZBTD0xIiwiZGF0ZXMiOlsiMjAyMy0wNi0yOSIsIjIwMjMtMDctMDEiLCIyMDIzLTA3LTA0IiwiMjAyMy0wNy0wNiJdLCJkYXRldGltZWNyZWF0ZWQiOiIiLCJ0aXRsZSI6IkJpZyBNZWFkb3dzIFN0YXIgUGFydHkiLCJsYXRpdHVkZSI6IjM4LjUxNjU4OSIsInN1YmplY3RuYW1lIjoiIiwidGFncyI6WyJyYW5nZXIgcHJvZ3JhbSIsInJhbmdlciBwcm9ncmFtcyIsInN1bW1lciIsIm5pZ2h0IHNreSIsInN0YXIgcGFydHkiXX0seyJsb2NhdGlvbiI6IkJ5cmQgVmlzaXRvciBDZW50ZXIgKG1pbGUgNTEpIiwidXBkYXRldXNlciI6IiIsImNvbnRhY3RuYW1lIjoiIiwiY29udGFjdHRlbGVwaG9uZW51bWJlciI6IiIsInJlY3VycmVuY2VkYXRlZW5kIjoiMjAyMy0wOS0wNCIsImxvbmdpdHVkZSI6IiIsImRhdGVzdGFydCI6IjIwMjMtMDYtMjkiLCJpc3JlY3VycmluZyI6InRydWUiLCJkYXRldGltZXVwZGF0ZWQiOiIiLCJwb3J0YWxuYW1lIjoiIiwidHlwZXMiOlsiV2FsayJdLCJjcmVhdGV1c2VyIjoiIiwiaXNmcmVlIjoidHJ1ZSIsImNvbnRhY3RlbWFpbGFkZHJlc3MiOiIiLCJyZWdyZXN1cmwiOiIiLCJkZXNjcmlwdGlvbiI6IjxwPkxlYXJuIHRoZSBBQkNzIG9mIHRoZSBDQ0MgYm95cyBpbiB0aGlzIG9uZS1ob3VyIGVhc3kgd2Fsa2luZyB0b3VyLiA8ZW0+QnlyZCBWaXNpdG9yIENlbnRlciAobWlsZSA1MSkuPFwvZW0+PFwvcD4iLCJpbWFnZXMiOltdLCJjYXRlZ29yeSI6IlJlZ3VsYXIgRXZlbnQiLCJpbWFnZWlkbGlzdCI6IiIsImlzcmVncmVzcmVxdWlyZWQiOiJmYWxzZSIsIm9yZ2FuaXphdGlvbm5hbWUiOiIiLCJpZCI6IjdGMjQzNTEwLTk1MkUtQkE5MS0wOTA2M0MyRDQ1NTA4RENEIiwiaXNhbGxkYXkiOiJmYWxzZSIsImRhdGVlbmQiOiIyMDIzLTA2LTI5Iiwic2l0ZWNvZGUiOiJzaGVuIiwiaW5mb3VybCI6IiIsInRpbWVzIjpbeyJ0aW1lc3RhcnQiOiIxMDowMCBBTSIsInRpbWVlbmQiOiIxMTowMCBBTSIsInN1bnNldGVuZCI6ImZhbHNlIiwic3VucmlzZXN0YXJ0IjoiZmFsc2UifV0sInJlZ3Jlc2luZm8iOiIiLCJ0aW1laW5mbyI6IiIsImNhdGVnb3J5aWQiOiIwIiwiZXZlbnRpZCI6IjAiLCJwYXJrZnVsbG5hbWUiOiJTaGVuYW5kb2FoIE5hdGlvbmFsIFBhcmsiLCJyZWN1cnJlbmNlZGF0ZXN0YXJ0IjoiMjAyMy0wNS0yNiIsImRhdGUiOiIyMDIzLTA2LTI5Iiwic2l0ZXR5cGUiOiJwYXJrIiwiZmVlaW5mbyI6Ikhvd2V2ZXIsIHRoZXJlIGlzIGEgJDMwIGVudHJhbmNlIGZlZSB0byB0aGUgcGFyayAoZ29vZCBmb3Igc2V2ZW4gZGF5cykuIiwicmVjdXJyZW5jZXJ1bGUiOiJEVFNUQVJUPTIwMjMwNTI2VDA0MDAwMFo7VU5USUw9MjAyMzA5MDRUMDQwMDAwWjtGUkVRPVdFRUtMWTtXS1NUPVNVO0JZREFZPVNVLFRVLFRILFNBO0NPVU5UPTA7SU5URVJWQUw9MSIsImRhdGVzIjpbIjIwMjMtMDYtMjkiLCIyMDIzLTA3LTAxIiwiMjAyMy0wNy0wMiIsIjIwMjMtMDctMDQiLCIyMDIzLTA3LTA2Il0sImRhdGV0aW1lY3JlYXRlZCI6IiIsInRpdGxlIjoiQ2l2aWxpYW4gQ29uc2VydmF0aW9uIENvcnBzIChDQ0MpIFdhbGsiLCJsYXRpdHVkZSI6IiIsInN1YmplY3RuYW1lIjoiIiwidGFncyI6WyJyYW5nZXIgcHJvZ3JhbSIsInN1bW1lciIsIkJpZyBNZWFkb3dzIiwiQ0NDIiwiQ2l2aWxpYW4gQ29uc2VydmF0aW9uIENvcnBzIiwiQlZDIiwiQnlyZCBWaXNpdG9yIENlbnRlciJdfSx7ImxvY2F0aW9uIjoiUmFwaWRhbiBDYW1wIiwidXBkYXRldXNlciI6IiIsImNvbnRhY3RuYW1lIjoiIiwiY29udGFjdHRlbGVwaG9uZW51bWJlciI6IiIsInJlY3VycmVuY2VkYXRlZW5kIjoiMjAyMy0wOS0wNCIsImxvbmdpdHVkZSI6Ii03OC40MTk1MjAiLCJkYXRlc3RhcnQiOiIyMDIzLTA2LTI5IiwiaXNyZWN1cnJpbmciOiJ0cnVlIiwiZGF0ZXRpbWV1cGRhdGVkIjoiIiwicG9ydGFsbmFtZSI6IiIsInR5cGVzIjpbIkd1aWRlZCBUb3VyIiwiVGFsayJdLCJjcmVhdGV1c2VyIjoiIiwiaXNmcmVlIjoidHJ1ZSIsImNvbnRhY3RlbWFpbGFkZHJlc3MiOiIiLCJyZWdyZXN1cmwiOiJodHRwczpcL1wvd3d3LnJlY3JlYXRpb24uZ292XC90aWNrZXRcL2ZhY2lsaXR5XC8yNTE3NDUiLCJkZXNjcmlwdGlvbiI6IjxwPlRyYXZlbCBieSB2YW4gMzAgbWludXRlcyB0byBQcmVzaWRlbnQgSG9vdmVy4oCZcyBzdW1tZXIgcmV0cmVhdC4gUmVzZXJ2YXRpb25zIGFyZSByZXF1aXJlZCBhbmQgY2FuIGJlIG1hZGUgb25saW5lIGF0IHd3dy5yZWNyZWF0aW9uLmdvdiBvciBieSBjYWxsaW5nICg4NzcpIDQ0NC02Nzc3LiBCeXJkIFZpc2l0b3IgQ2VudGVyIChtaWxlIDUxKSwgMi3CvSBocnMuIENoZWNrIGZvciBvdGhlciB0b3VyIHRpbWVzIGF0IHd3dy5yZWNyZWF0aW9uLmdvdjxcL3A+XG48cD5XaGVlbGNoYWlyIEFjY2Vzc2libGUuwqBBc3Npc3RpdmUgTGlzdGVuaW5nIEF2YWlsYWJsZSAocGxlYXNlIGFycml2ZSAxNSBtaW51dGVzIGVhcmx5KS48XC9wPiIsImltYWdlcyI6W10sImNhdGVnb3J5IjoiUmVndWxhciBFdmVudCIsImltYWdlaWRsaXN0IjoiIiwiaXNyZWdyZXNyZXF1aXJlZCI6InRydWUiLCJvcmdhbml6YXRpb25uYW1lIjoiIiwiaWQiOiI4MUY0Q0YyMy05MUZGLTJEQzktODVCRkEwRkM0MTFDMjM4MSIsImlzYWxsZGF5IjoiZmFsc2UiLCJkYXRlZW5kIjoiMjAyMy0wNi0yOSIsInNpdGVjb2RlIjoic2hlbiIsImluZm91cmwiOiIiLCJ0aW1lcyI6W3sidGltZXN0YXJ0IjoiMTA6MDAgQU0iLCJ0aW1lZW5kIjoiMTE6MzAgQU0iLCJzdW5zZXRlbmQiOiJmYWxzZSIsInN1bnJpc2VzdGFydCI6ImZhbHNlIn0seyJ0aW1lc3RhcnQiOiIwMjowMCBQTSIsInRpbWVlbmQiOiIwMzozMCBQTSIsInN1bnNldGVuZCI6ImZhbHNlIiwic3VucmlzZXN0YXJ0IjoiZmFsc2UifV0sInJlZ3Jlc2luZm8iOiJSZXNlcnZhdGlvbnMgY2FuIGJlIG1hZGUgYXQgd3d3LnJlY3JlYXRpb24uZ292IG9yIGJ5IGNhbGxpbmcgKDg3NykgNDQ0LTY3NzcuIiwidGltZWluZm8iOiIiLCJjYXRlZ29yeWlkIjoiMCIsImV2ZW50aWQiOiIwIiwicGFya2Z1bGxuYW1lIjoiU2hlbmFuZG9haCBOYXRpb25hbCBQYXJrIiwicmVjdXJyZW5jZWRhdGVzdGFydCI6IjIwMjMtMDUtMjYiLCJkYXRlIjoiMjAyMy0wNi0yOSIsInNpdGV0eXBlIjoicGFyayIsImZlZWluZm8iOiJIb3dldmVyLCB0aGVyZSBpcyBhICQzMCBlbnRyYW5jZSBmZWUgdG8gdGhlIHBhcmsgKGdvb2QgZm9yIHNldmVuIGRheXMpLiIsInJlY3VycmVuY2VydWxlIjoiRFRTVEFSVD0yMDIzMDUyNlQwNDAwMDBaO1VOVElMPTIwMjMwOTA0VDA0MDAwMFo7RlJFUT1XRUVLTFk7V0tTVD1TVTtCWURBWT1TVSxNTyxUSCxGUixTQTtDT1VOVD0wO0lOVEVSVkFMPTEiLCJkYXRlcyI6WyIyMDIzLTA2LTI5IiwiMjAyMy0wNi0zMCIsIjIwMjMtMDctMDEiLCIyMDIzLTA3LTAyIiwiMjAyMy0wNy0wMyIsIjIwMjMtMDctMDYiXSwiZGF0ZXRpbWVjcmVhdGVkIjoiIiwidGl0bGUiOiJIaXN0b3JpYyBSYXBpZGFuIENhbXAiLCJsYXRpdHVkZSI6IjM4LjQ5MDc2MCIsInN1YmplY3RuYW1lIjoiIiwidGFncyI6WyJyYW5nZXIgcHJvZ3JhbSIsInJhbmdlciBwcm9ncmFtcyIsInN1bW1lciIsIlJhcGlkYW4gQ2FtcCJdfSx7ImxvY2F0aW9uIjoiTWVldCBhdCBMaW1iZXJsb3N0IHBhcmtpbmcgbG90IChtaWxlIDQzKSIsInVwZGF0ZXVzZXIiOiIiLCJjb250YWN0bmFtZSI6IiIsImNvbnRhY3R0ZWxlcGhvbmVudW1iZXIiOiIiLCJyZWN1cnJlbmNlZGF0ZWVuZCI6IjIwMjMtMDktMDQiLCJsb25naXR1ZGUiOiIiLCJkYXRlc3RhcnQiOiIyMDIzLTA2LTI5IiwiaXNyZWN1cnJpbmciOiJ0cnVlIiwiZGF0ZXRpbWV1cGRhdGVkIjoiIiwicG9ydGFsbmFtZSI6IiIsInR5cGVzIjpbIkhpa2UiLCJXYWxrIl0sImNyZWF0ZXVzZXIiOiIiLCJpc2ZyZWUiOiJ0cnVlIiwiY29udGFjdGVtYWlsYWRkcmVzcyI6IiIsInJlZ3Jlc3VybCI6IiIsImRlc2NyaXB0aW9uIjoiPHA+TGVhcm4gYWJvdXQgZ2VvbG9neSBhbmQgbmF0dXJlIG9uIHRoaXMgZ2VudGxlLCBhY2Nlc3NpYmxlIGhpa2UuwqBXaGVlbGNoYWlyIEFjY2Vzc2libGUuPFwvcD5cbjxwPjxlbT5NZWV0IGF0IExpbWJlcmxvc3QgcGFya2luZyBsb3QgKG1pbGUgNDMpLCAxIGhyLCAxLW1pbGUuwqA8XC9lbT48XC9wPiIsImltYWdlcyI6W10sImNhdGVnb3J5IjoiUmVndWxhciBFdmVudCIsImltYWdlaWRsaXN0IjoiIiwiaXNyZWdyZXNyZXF1aXJlZCI6ImZhbHNlIiwib3JnYW5pemF0aW9ubmFtZSI6IiIsImlkIjoiNzZCMTlDRDgtQkNENy03QkEzLUQ1MDhBNEIxQ0ZBOTg5MzIiLCJpc2FsbGRheSI6ImZhbHNlIiwiZGF0ZWVuZCI6IjIwMjMtMDYtMjkiLCJzaXRlY29kZSI6InNoZW4iLCJpbmZvdXJsIjoiIiwidGltZXMiOlt7InRpbWVzdGFydCI6IjAyOjAwIFBNIiwidGltZWVuZCI6IjAzOjAwIFBNIiwic3Vuc2V0ZW5kIjoiZmFsc2UiLCJzdW5yaXNlc3RhcnQiOiJmYWxzZSJ9XSwicmVncmVzaW5mbyI6IiIsInRpbWVpbmZvIjoiIiwiY2F0ZWdvcnlpZCI6IjAiLCJldmVudGlkIjoiMCIsInBhcmtmdWxsbmFtZSI6IlNoZW5hbmRvYWggTmF0aW9uYWwgUGFyayIsInJlY3VycmVuY2VkYXRlc3RhcnQiOiIyMDIzLTA1LTI2IiwiZGF0ZSI6IjIwMjMtMDYtMjkiLCJzaXRldHlwZSI6InBhcmsiLCJmZWVpbmZvIjoiSG93ZXZlciwgdGhlcmUgaXMgYSAkMzAgZW50cmFuY2UgZmVlIHRvIHRoZSBwYXJrIChnb29kIGZvciBzZXZlbiBkYXlzKS4iLCJyZWN1cnJlbmNlcnVsZSI6IkRUU1RBUlQ9MjAyMzA1MjZUMDQwMDAwWjtVTlRJTD0yMDIzMDkwNFQwNDAwMDBaO0ZSRVE9V0VFS0xZO1dLU1Q9U1U7QllEQVk9VFUsVEg7Q09VTlQ9MDtJTlRFUlZBTD0xIiwiZGF0ZXMiOlsiMjAyMy0wNi0yOSIsIjIwMjMtMDctMDQiLCIyMDIzLTA3LTA2Il0sImRhdGV0aW1lY3JlYXRlZCI6IiIsInRpdGxlIjoiTGltYmVybG9zdCBUcmFpbCBIaWtlIiwibGF0aXR1ZGUiOiIiLCJzdWJqZWN0bmFtZSI6IiIsInRhZ3MiOlsicmFuZ2VyIHByb2dyYW0iLCJzdW1tZXIiLCJMaW1iZXJsb3N0IFRyYWlsIiwiTGltYmVybG9zdCIsIkxpbWJlcmxvc3QgVHJhaWxoZWFkIiwiU2t5bGFuZCJdfSx7ImxvY2F0aW9uIjoiUGFyayBhdCBTa3lsYW5kIENvbmZlcmVuY2UgSGFsbCBhbmQgZm9sbG93IHRoZSBzaWduIHRvIHdhbGsgdXAgcm9hZCAobWlsZSA0Mi41KS4iLCJ1cGRhdGV1c2VyIjoiIiwiY29udGFjdG5hbWUiOiIiLCJjb250YWN0dGVsZXBob25lbnVtYmVyIjoiIiwicmVjdXJyZW5jZWRhdGVlbmQiOiIyMDIzLTA5LTA0IiwibG9uZ2l0dWRlIjoiIiwiZGF0ZXN0YXJ0IjoiMjAyMy0wNi0yOSIsImlzcmVjdXJyaW5nIjoidHJ1ZSIsImRhdGV0aW1ldXBkYXRlZCI6IiIsInBvcnRhbG5hbWUiOiIiLCJ0eXBlcyI6WyJHdWlkZWQgVG91ciIsIk90aGVyIl0sImNyZWF0ZXVzZXIiOiIiLCJpc2ZyZWUiOiJ0cnVlIiwiY29udGFjdGVtYWlsYWRkcmVzcyI6IiIsInJlZ3Jlc3VybCI6IiIsImRlc2NyaXB0aW9uIjoiPHA+VG91ciBBZGRpZSBQb2xsb2Nr4oCZcyByZXN0b3JlZCBidW5nYWxvdyBhbmQgaGVhciB0aGUgc3RvcmllcyBvZiBlYXJseSBTa3lsYW5kLiBXaGVlbGNoYWlyIEFjY2Vzc2libGUuPFwvcD5cbjxwPjxlbT5QYXJrIGF0IFNreWxhbmQgQ29uZmVyZW5jZSBIYWxsIGFuZCBmb2xsb3cgdGhlIHNpZ24gdG8gd2FsayB1cCByb2FkIChtaWxlIDQyLjUpLjxcL2VtPjxcL3A+IiwiaW1hZ2VzIjpbXSwiY2F0ZWdvcnkiOiJSZWd1bGFyIEV2ZW50IiwiaW1hZ2VpZGxpc3QiOiIiLCJpc3JlZ3Jlc3JlcXVpcmVkIjoiZmFsc2UiLCJvcmdhbml6YXRpb25uYW1lIjoiIiwiaWQiOiI3NDY3MDk1Ri1ERUMyLTI2OUItNThDNzRCQTg0MTAxNUY0OCIsImlzYWxsZGF5IjoiZmFsc2UiLCJkYXRlZW5kIjoiMjAyMy0wNi0yOSIsInNpdGVjb2RlIjoic2hlbiIsImluZm91cmwiOiIiLCJ0aW1lcyI6W3sidGltZXN0YXJ0IjoiMDI6MDAgUE0iLCJ0aW1lZW5kIjoiMDQ6MDAgUE0iLCJzdW5zZXRlbmQiOiJmYWxzZSIsInN1bnJpc2VzdGFydCI6ImZhbHNlIn1dLCJyZWdyZXNpbmZvIjoiIiwidGltZWluZm8iOiIiLCJjYXRlZ29yeWlkIjoiMCIsImV2ZW50aWQiOiIwIiwicGFya2Z1bGxuYW1lIjoiU2hlbmFuZG9haCBOYXRpb25hbCBQYXJrIiwicmVjdXJyZW5jZWRhdGVzdGFydCI6IjIwMjMtMDUtMjYiLCJkYXRlIjoiMjAyMy0wNi0yOSIsInNpdGV0eXBlIjoicGFyayIsImZlZWluZm8iOiJIb3dldmVyLCB0aGVyZSBpcyBhICQzMCBlbnRyYW5jZSBmZWUgdG8gdGhlIHBhcmsgKGdvb2QgZm9yIHNldmVuIGRheXMpLiIsInJlY3VycmVuY2VydWxlIjoiRFRTVEFSVD0yMDIzMDUyNlQwNDAwMDBaO1VOVElMPTIwMjMwOTA0VDA0MDAwMFo7RlJFUT1XRUVLTFk7V0tTVD1TVTtCWURBWT1TVSxNTyxUSCxGUixTQTtDT1VOVD0wO0lOVEVSVkFMPTEiLCJkYXRlcyI6WyIyMDIzLTA2LTI5IiwiMjAyMy0wNi0zMCIsIjIwMjMtMDctMDEiLCIyMDIzLTA3LTAyIiwiMjAyMy0wNy0wMyIsIjIwMjMtMDctMDYiXSwiZGF0ZXRpbWVjcmVhdGVkIjoiIiwidGl0bGUiOiJNYXNzYW51dHRlbiBMb2RnZSBPcGVuIEhvdXNlIiwibGF0aXR1ZGUiOiIiLCJzdWJqZWN0bmFtZSI6IiIsInRhZ3MiOlsicmFuZ2VyIHByb2dyYW0iLCJzdW1tZXIiLCJTa3lsYW5kIiwiQWRkaWUgUG9sbG9jayIsIk1hc3NhbnV0dGVuIExvZGdlIl19LHsibG9jYXRpb24iOiJMb2NhdGVkIGF0IFNreWxhbmQgbG93ZXItbGV2ZWwgKG1pbGUgNDIuNSkuIiwidXBkYXRldXNlciI6IiIsImNvbnRhY3RuYW1lIjoiIiwiY29udGFjdHRlbGVwaG9uZW51bWJlciI6IiIsInJlY3VycmVuY2VkYXRlZW5kIjoiMjAyMy0wOS0wNCIsImxvbmdpdHVkZSI6IiIsImRhdGVzdGFydCI6IjIwMjMtMDYtMjkiLCJpc3JlY3VycmluZyI6InRydWUiLCJkYXRldGltZXVwZGF0ZWQiOiIiLCJwb3J0YWxuYW1lIjoiIiwidHlwZXMiOlsiVGFsayJdLCJjcmVhdGV1c2VyIjoiIiwiaXNmcmVlIjoidHJ1ZSIsImNvbnRhY3RlbWFpbGFkZHJlc3MiOiIiLCJyZWdyZXN1cmwiOiIiLCJkZXNjcmlwdGlvbiI6IjxwPkxlYXJuIHRoZSBoaXN0b3J5IG9mIFNreWxhbmQgaW5jbHVkaW5nIEFkZGllIFBvbGxvY2vigJlzIHJlc3RvcmVkIGJ1bmdhbG93IGFuZCBoZWFyIHRoZSBzdG9yaWVzIG9mIGVhcmx5IFNrbGFuZCBSZXNvcnQuwqBXaGVlbGNoYWlyIEFjY2Vzc2libGUuPFwvcD5cbjxwPjxlbT5Mb2NhdGVkIGF0IFNreWxhbmQgbG93ZXItbGV2ZWwgKG1pbGUgNDIuNSkuIFBhcmsgbmVhciBTa3lsYW5kIENvbmZlcmVuY2UgSGFsbCBhbmQgZm9sbG93IHRoZSBzaWduIHRvIHdhbGsgdXAgcm9hZCAtIDIwIG1pbnV0ZXMuPFwvZW0+PFwvcD4iLCJpbWFnZXMiOltdLCJjYXRlZ29yeSI6IlJlZ3VsYXIgRXZlbnQiLCJpbWFnZWlkbGlzdCI6IiIsImlzcmVncmVzcmVxdWlyZWQiOiJmYWxzZSIsIm9yZ2FuaXphdGlvbm5hbWUiOiIiLCJpZCI6Ijc3NDM4REQ5LUM5QUMtNDQwMS01RjgwMkIyQTY4QUYwMjNGIiwiaXNhbGxkYXkiOiJmYWxzZSIsImRhdGVlbmQiOiIyMDIzLTA2LTI5Iiwic2l0ZWNvZGUiOiJzaGVuIiwiaW5mb3VybCI6IiIsInRpbWVzIjpbeyJ0aW1lc3RhcnQiOiIwMTozMCBQTSIsInRpbWVlbmQiOiIwMjowMCBQTSIsInN1bnNldGVuZCI6ImZhbHNlIiwic3VucmlzZXN0YXJ0IjoiZmFsc2UifV0sInJlZ3Jlc2luZm8iOiIiLCJ0aW1laW5mbyI6IiIsImNhdGVnb3J5aWQiOiIwIiwiZXZlbnRpZCI6IjAiLCJwYXJrZnVsbG5hbWUiOiJTaGVuYW5kb2FoIE5hdGlvbmFsIFBhcmsiLCJyZWN1cnJlbmNlZGF0ZXN0YXJ0IjoiMjAyMy0wNS0yNiIsImRhdGUiOiIyMDIzLTA2LTI5Iiwic2l0ZXR5cGUiOiJwYXJrIiwiZmVlaW5mbyI6Ikhvd2V2ZXIsIHRoZXJlIGlzIGEgJDMwIGVudHJhbmNlIGZlZSB0byB0aGUgcGFyayAoZ29vZCBmb3Igc2V2ZW4gZGF5cykuIiwicmVjdXJyZW5jZXJ1bGUiOiJEVFNUQVJUPTIwMjMwNTI2VDA0MDAwMFo7VU5USUw9MjAyMzA5MDRUMDQwMDAwWjtGUkVRPVdFRUtMWTtXS1NUPVNVO0JZREFZPVNVLE1PLFRILEZSLFNBO0NPVU5UPTA7SU5URVJWQUw9MSIsImRhdGVzIjpbIjIwMjMtMDYtMjkiLCIyMDIzLTA2LTMwIiwiMjAyMy0wNy0wMSIsIjIwMjMtMDctMDIiLCIyMDIzLTA3LTAzIiwiMjAyMy0wNy0wNiJdLCJkYXRldGltZWNyZWF0ZWQiOiIiLCJ0aXRsZSI6Ik1hc3NhbnV0dGVuIExvZGdlIFBvcmNoIFRhbGsiLCJsYXRpdHVkZSI6IiIsInN1YmplY3RuYW1lIjoiIiwidGFncyI6WyJyYW5nZXIgcHJvZ3JhbSIsInN1bW1lciIsIlNreWxhbmQiLCJNYXNzYW51dHRlbiBMb2RnZSIsIkFkZGllIFBvbGxvY2siXX0seyJsb2NhdGlvbiI6IiIsInVwZGF0ZXVzZXIiOiIiLCJjb250YWN0bmFtZSI6IiIsImNvbnRhY3R0ZWxlcGhvbmVudW1iZXIiOiIiLCJyZWN1cnJlbmNlZGF0ZWVuZCI6IjIwMjMtMDktMDQiLCJsb25naXR1ZGUiOiIiLCJkYXRlc3RhcnQiOiIyMDIzLTA2LTI5IiwiaXNyZWN1cnJpbmciOiJ0cnVlIiwiZGF0ZXRpbWV1cGRhdGVkIjoiIiwicG9ydGFsbmFtZSI6IiIsInR5cGVzIjpbIlRhbGsiXSwiY3JlYXRldXNlciI6IiIsImlzZnJlZSI6InRydWUiLCJjb250YWN0ZW1haWxhZGRyZXNzIjoiIiwicmVncmVzdXJsIjoiIiwiZGVzY3JpcHRpb24iOiI8cD5Db21lIGFuZCBlbmpveSB0aGlzIHNob3J0IHRhbGsgb24gdGhlIHZhcmlvdXMgc3ViamVjdHMgdGhhdCBtYWtlIFNoZW5hbmRvYWggZ3JlYXQuIFdoZWVsY2hhaXIgQWNjZXNzaWJsZS7CoEFzc2lzdGl2ZSBMaXN0ZW5pbmcgQXZhaWxhYmxlIChwbGVhc2UgYXJyaXZlIDE1IG1pbnV0ZXMgZWFybHkpLjxcL3A+XG48cD48ZW0+QnlyZCBWaXNpdG9yIENlbnRlciAobWlsZSA1MSksIDE1LTI1IG1pbi7CoDxcL2VtPjxcL3A+IiwiaW1hZ2VzIjpbXSwiY2F0ZWdvcnkiOiJSZWd1bGFyIEV2ZW50IiwiaW1hZ2VpZGxpc3QiOiIiLCJpc3JlZ3Jlc3JlcXVpcmVkIjoiZmFsc2UiLCJvcmdhbml6YXRpb25uYW1lIjoiIiwiaWQiOiI3QzJGRENFNC1EOUFBLTc1NEItRkFEOUVFQTJGNzc0NjVDMCIsImlzYWxsZGF5IjoiZmFsc2UiLCJkYXRlZW5kIjoiMjAyMy0wNi0yOSIsInNpdGVjb2RlIjoic2hlbiIsImluZm91cmwiOiIiLCJ0aW1lcyI6W3sidGltZXN0YXJ0IjoiMDE6MzAgUE0iLCJ0aW1lZW5kIjoiMDE6NDUgUE0iLCJzdW5zZXRlbmQiOiJmYWxzZSIsInN1bnJpc2VzdGFydCI6ImZhbHNlIn1dLCJyZWdyZXNpbmZvIjoiIiwidGltZWluZm8iOiIiLCJjYXRlZ29yeWlkIjoiMCIsImV2ZW50aWQiOiIwIiwicGFya2Z1bGxuYW1lIjoiU2hlbmFuZG9haCBOYXRpb25hbCBQYXJrIiwicmVjdXJyZW5jZWRhdGVzdGFydCI6IjIwMjMtMDUtMjYiLCJkYXRlIjoiMjAyMy0wNi0yOSIsInNpdGV0eXBlIjoicGFyayIsImZlZWluZm8iOiJIb3dldmVyLCB0aGVyZSBpcyBhICQzMCBlbnRyYW5jZSBmZWUgdG8gdGhlIHBhcmsgKGdvb2QgZm9yIHNldmVuIGRheXMpLiIsInJlY3VycmVuY2VydWxlIjoiRFRTVEFSVD0yMDIzMDUyNlQwNDAwMDBaO1VOVElMPTIwMjMwOTA0VDA0MDAwMFo7RlJFUT1XRUVLTFk7V0tTVD1TVTtCWURBWT1TVSxNTyxUVSxXRSxUSCxGUixTQTtDT1VOVD0wO0lOVEVSVkFMPTEiLCJkYXRlcyI6WyIyMDIzLTA2LTI5IiwiMjAyMy0wNi0zMCIsIjIwMjMtMDctMDEiLCIyMDIzLTA3LTAyIiwiMjAyMy0wNy0wMyIsIjIwMjMtMDctMDQiLCIyMDIzLTA3LTA1IiwiMjAyMy0wNy0wNiJdLCJkYXRldGltZWNyZWF0ZWQiOiIiLCJ0aXRsZSI6IlJhbmdlciBQb3JjaCBUYWxrIGF0IEJpZyBNZWFkb3dzIiwibGF0aXR1ZGUiOiIiLCJzdWJqZWN0bmFtZSI6IiIsInRhZ3MiOlsicmFuZ2VyIHByb2dyYW0iLCJyYW5nZXIgcHJvZ3JhbXMiLCJzdW1tZXIiLCJCaWcgTWVhZG93cyJdfSx7ImxvY2F0aW9uIjoiRGlja2V5IFJpZGdlIFZpc2l0b3IgQ2VudGVyIExhd24gKG1pbGUgNC42KSIsInVwZGF0ZXVzZXIiOiIiLCJjb250YWN0bmFtZSI6IiIsImNvbnRhY3R0ZWxlcGhvbmVudW1iZXIiOiIiLCJyZWN1cnJlbmNlZGF0ZWVuZCI6IjIwMjMtMDktMDQiLCJsb25naXR1ZGUiOiItNzguMjA0NjU5IiwiZGF0ZXN0YXJ0IjoiMjAyMy0wNi0yOSIsImlzcmVjdXJyaW5nIjoidHJ1ZSIsImRhdGV0aW1ldXBkYXRlZCI6IiIsInBvcnRhbG5hbWUiOiIiLCJ0eXBlcyI6WyJUYWxrIl0sImNyZWF0ZXVzZXIiOiIiLCJpc2ZyZWUiOiJ0cnVlIiwiY29udGFjdGVtYWlsYWRkcmVzcyI6IiIsInJlZ3Jlc3VybCI6IiIsImRlc2NyaXB0aW9uIjoiPHA+Q29tZSBhbmQgZW5qb3kgdGhpcyBzaG9ydCB0YWxrIG9uIHRoZSB2YXJpb3VzIHN1YmplY3RzIHRoYXQgbWFrZSBTaGVuYW5kb2FoIGdyZWF0LsKgV2hlZWxjaGFpciBBY2Nlc3NpYmxlLsKgQXNzaXN0aXZlIExpc3RlbmluZyBBdmFpbGFibGUgKHBsZWFzZSBhcnJpdmUgMTUgbWludXRlcyBlYXJseSkuPFwvcD5cbjxwPjxlbT5EaWNrZXkgUmlkZ2UgVmlzaXRvciBDZW50ZXIgTGF3biAobWlsZSA0LjYpLCAyMC0zMCBtaW4uPFwvZW0+PFwvcD4iLCJpbWFnZXMiOltdLCJjYXRlZ29yeSI6IlJlZ3VsYXIgRXZlbnQiLCJpbWFnZWlkbGlzdCI6IiIsImlzcmVncmVzcmVxdWlyZWQiOiJmYWxzZSIsIm9yZ2FuaXphdGlvbm5hbWUiOiIiLCJpZCI6IjdEMDlGMDFCLUVCQ0ItQTc4NC1ERTU4QTdBRjMzQTI3MEZDIiwiaXNhbGxkYXkiOiJmYWxzZSIsImRhdGVlbmQiOiIyMDIzLTA2LTI5Iiwic2l0ZWNvZGUiOiJzaGVuIiwiaW5mb3VybCI6IiIsInRpbWVzIjpbeyJ0aW1lc3RhcnQiOiIxMTowMCBBTSIsInRpbWVlbmQiOiIxMTozMCBBTSIsInN1bnNldGVuZCI6ImZhbHNlIiwic3VucmlzZXN0YXJ0IjoiZmFsc2UifV0sInJlZ3Jlc2luZm8iOiIiLCJ0aW1laW5mbyI6IiIsImNhdGVnb3J5aWQiOiIwIiwiZXZlbnRpZCI6IjAiLCJwYXJrZnVsbG5hbWUiOiJTaGVuYW5kb2FoIE5hdGlvbmFsIFBhcmsiLCJyZWN1cnJlbmNlZGF0ZXN0YXJ0IjoiMjAyMy0wNS0yNiIsImRhdGUiOiIyMDIzLTA2LTI5Iiwic2l0ZXR5cGUiOiJwYXJrIiwiZmVlaW5mbyI6IlJhbmdlciBwcm9ncmFtcyBhcmUgZnJlZS4gSG93ZXZlciwgdGhlcmUgaXMgYSAkMzAgZW50cmFuY2UgZmVlIHRvIHRoZSBwYXJrIChnb29kIGZvciBzZXZlbiBkYXlzKS4iLCJyZWN1cnJlbmNlcnVsZSI6IkRUU1RBUlQ9MjAyMzA1MjZUMDQwMDAwWjtVTlRJTD0yMDIzMDkwNFQwNDAwMDBaO0ZSRVE9REFJTFk7V0tTVD1TVTtDT1VOVD0wO0lOVEVSVkFMPTEiLCJkYXRlcyI6WyIyMDIzLTA2LTI5IiwiMjAyMy0wNi0zMCIsIjIwMjMtMDctMDEiLCIyMDIzLTA3LTAyIiwiMjAyMy0wNy0wMyIsIjIwMjMtMDctMDQiLCIyMDIzLTA3LTA1IiwiMjAyMy0wNy0wNiJdLCJkYXRldGltZWNyZWF0ZWQiOiIiLCJ0aXRsZSI6IlJhbmdlciBUYWxrIGF0IERpY2tleSBSaWRnZSIsImxhdGl0dWRlIjoiMzguODcxNzI0Iiwic3ViamVjdG5hbWUiOiIiLCJ0YWdzIjpbInJhbmdlciBwcm9ncmFtIiwiRGlja2V5IFJpZGdlIiwic3VtbWVyIl19LHsibG9jYXRpb24iOiJTdG9ueSBNYW4gVHJhaWxoZWFkIChtaWxlIDQxLjcpIiwidXBkYXRldXNlciI6IiIsImNvbnRhY3RuYW1lIjoiIiwiY29udGFjdHRlbGVwaG9uZW51bWJlciI6IiIsInJlY3VycmVuY2VkYXRlZW5kIjoiMjAyMy0wNi0yOSIsImxvbmdpdHVkZSI6IiIsImRhdGVzdGFydCI6IjIwMjMtMDYtMjkiLCJpc3JlY3VycmluZyI6InRydWUiLCJkYXRldGltZXVwZGF0ZWQiOiIiLCJwb3J0YWxuYW1lIjoiIiwidHlwZXMiOlsiSGlrZSJdLCJjcmVhdGV1c2VyIjoiIiwiaXNmcmVlIjoidHJ1ZSIsImNvbnRhY3RlbWFpbGFkZHJlc3MiOiIiLCJyZWdyZXN1cmwiOiIiLCJkZXNjcmlwdGlvbiI6IjxwPlN0b255IE1hbiBoYXMgc3RvcmllcywgYm90aCBoaXN0b3JpYyBhbmQgbmF0dXJhbC48XC9wPlxuPHA+PGVtPlN0b255IE1hbiBUcmFpbGhlYWQgKG1pbGUgNDEuNyksIDIgaHJzLCAyLW1pbGUgaGlrZS48XC9lbT48XC9wPiIsImltYWdlcyI6W10sImNhdGVnb3J5IjoiUmVndWxhciBFdmVudCIsImltYWdlaWRsaXN0IjoiIiwiaXNyZWdyZXNyZXF1aXJlZCI6ImZhbHNlIiwib3JnYW5pemF0aW9ubmFtZSI6IiIsImlkIjoiNzY5MzVGQTEtRkVDMS0zMEE3LTJCRERBOTU5MzMwMDNGMEQiLCJpc2FsbGRheSI6ImZhbHNlIiwiZGF0ZWVuZCI6IjIwMjMtMDYtMjkiLCJzaXRlY29kZSI6InNoZW4iLCJpbmZvdXJsIjoiIiwidGltZXMiOlt7InRpbWVzdGFydCI6IjEwOjAwIEFNIiwidGltZWVuZCI6IjEyOjAwIFBNIiwic3Vuc2V0ZW5kIjoiZmFsc2UiLCJzdW5yaXNlc3RhcnQiOiJmYWxzZSJ9XSwicmVncmVzaW5mbyI6IiIsInRpbWVpbmZvIjoiIiwiY2F0ZWdvcnlpZCI6IjAiLCJldmVudGlkIjoiMCIsInBhcmtmdWxsbmFtZSI6IlNoZW5hbmRvYWggTmF0aW9uYWwgUGFyayIsInJlY3VycmVuY2VkYXRlc3RhcnQiOiIyMDIzLTA1LTI2IiwiZGF0ZSI6IjIwMjMtMDYtMjkiLCJzaXRldHlwZSI6InBhcmsiLCJmZWVpbmZvIjoiSG93ZXZlciwgdGhlcmUgaXMgYSAkMzAgZW50cmFuY2UgZmVlIHRvIHRoZSBwYXJrIChnb29kIGZvciBzZXZlbiBkYXlzKS4iLCJyZWN1cnJlbmNlcnVsZSI6IkRUU1RBUlQ9MjAyMzA1MjZUMDQwMDAwWjtVTlRJTD0yMDIzMDYyOVQwNDAwMDBaO0ZSRVE9V0VFS0xZO1dLU1Q9U1U7QllEQVk9VFUsVEg7Q09VTlQ9MDtJTlRFUlZBTD0xIiwiZGF0ZXMiOlsiMjAyMy0wNi0yOSJdLCJkYXRldGltZWNyZWF0ZWQiOiIiLCJ0aXRsZSI6IlN0b255IE1hbiBIaWtlIiwibGF0aXR1ZGUiOiIiLCJzdWJqZWN0bmFtZSI6IiIsInRhZ3MiOlsicmFuZ2VyIHByb2dyYW0iLCJzdW1tZXIiLCJTa3lsYW5kIiwiU3RvbnkgTWFuIl19XSwiZGF0ZXMiOiIyMDIzLTA2LTI5LDIwMjMtMDYtMzAsMjAyMy0wNy0wMSwyMDIzLTA3LTAyLDIwMjMtMDctMDMsMjAyMy0wNy0wNCwyMDIzLTA3LTA1LDIwMjMtMDctMDYiLCJwYWdlbnVtYmVyIjoiMSIsInBhZ2VzaXplIjoiMTAifQ==
+  recorded_at: Thu, 29 Jun 2023 20:23:59 GMT
 recorded_with: VCR 6.1.0
