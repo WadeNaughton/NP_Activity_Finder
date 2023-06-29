@@ -14,7 +14,7 @@ class Comment < ApplicationRecord
     Comment.all.each do |comment|
       user_new_events.each do |event|
         if comment.user_new_event_id == event.id && event.new_park_id == park.id
-          park_comment_array << [comment, User.find_by(id: comment.user_new_event.user_id).first_name, 
+          park_comment_array << [comment, User.find_by(id: comment.user_new_event.user_ id).first_name, 
                                  NewEvent.find_by(id: comment.user_new_event.new_event_id).name]
         end
       end
