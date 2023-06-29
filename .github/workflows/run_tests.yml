@@ -3,7 +3,7 @@ on: [push, pull_request]
 jobs:
   test:
     runs-on: ubuntu-latest
-    environment: Warnaldo
+    environment: Configure Warnaldo
     services: 
       db:
         image: postgres:14
