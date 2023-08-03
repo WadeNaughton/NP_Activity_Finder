@@ -11,7 +11,18 @@
     <%= render "layouts/messages" %>
   </head>
 
+
   <body>
+    <ul>
+      <% I18n.available_locales.each do |locale| %>
+        <% if I18n.locale != locale %>
+        <li>
+          <%= link_to t(".lang.#{locale}"), url_for(locale: locale) %>
+        </li>
+        <% end %>
+        <% end %>
+    </ul>
+    
     <%= yield %>
   </body>
 

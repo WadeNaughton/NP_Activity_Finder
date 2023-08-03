@@ -1,12 +1,12 @@
 
 <div class = "container text-center">
     <%if !logged_in?%>
-<h1> Welcome, Guest!</h1>
-<h3> Please Login or Create An Account For Full Functionality  </h3>
+<h1> <%= t(".greeting")%> </h1>
+<h3> <%= t(".greeting_follow_up")%> </h3>
 <div id ="homepage">
     <%= form_with url: "/parks", method: :get, local: true do %>
         <%= select_tag :state, options_for_select(us_states) %>
-        <%= submit_tag "Find Parks", class: "btn" %>
+        <%= submit_tag t(".find") , class: "btn" %>
 
     <% end %>
 </div>
@@ -15,9 +15,9 @@
         <div class="col-lg-4">
             
                 <div class="user-comments">
-                    <h2> Create An Account </h2>
+                    <h2> <%= t(".create")%> </h2>
 
-                    <%= button_to "Sign Up", "/users/new", method: :get,class: "btn"%>
+                    <%= button_to t(".sign_up"), "/users/new", method: :get,class: "btn"%>
                 </div>
                 <img src="/assets/snow.JPG" alt="Logo" style="width:340px;height:250px;"> 
 
@@ -26,9 +26,9 @@
         <div class="col-lg-4">
 
             <div class="user-comments">
-                <h2> Login </h2>
+                <h2> <%= t(".login") %></h2>
 
-                <%= button_to "Login", "/login", method: :get,class: "btn"%>
+                <%= button_to t(".login"), "/login", method: :get,class: "btn"%>
             </div>
             <img src="/assets/cali.JPG" alt="Logo" style="width:340px;height:250px;"> 
 
@@ -39,8 +39,8 @@
         <div class="col-lg-4">
 
             <div class ="user-comments">
-                <h2> Give Back </h2>
-                <%=button_to "Give Back","/volunteer",method: :get, class: "btn"%>
+                <h2> <%= t(".give_back") %> </h2>
+                <%=button_to t(".give_back"),"/volunteer",method: :get, class: "btn"%>
             </div>
         <img src="/assets/volunteer.png" alt="Logo" style="width:340px;height:250px;"> 
 

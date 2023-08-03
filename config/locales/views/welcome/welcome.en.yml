@@ -1,0 +1,10 @@
+en:
+  welcome:
+    index:
+      greeting: "Welcome, Guest!"
+      greeting_follow_up: "Please Login or Create An Account For Full Functionality"
+      find: "Find Parks"
+      create: "Create An Account"
+      login: "Login"
+      give_back: "Give Back"
+      sign_up: "Sign Up"

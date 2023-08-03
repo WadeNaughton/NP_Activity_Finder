@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-
-  get '/', to: 'welcome#index'
+  scope ":locale" do
+    get '/', to: 'welcome#index'
+  end
+  
   get '/volunteer', to: 'volunteers#index'
   resources :parks do
     get "/comments", to: 'parks#park_comments'

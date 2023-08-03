@@ -1,0 +1,10 @@
+es:
+  welcome:
+    index:
+      greeting: "Bienvenido, invitado!"
+      greeting_follow_up: "Inicie sesión o cree una cuenta para una funcionalidad completa"
+      find: "Busca Parques"
+      create: "Crear Una Cuenta"
+      login: "Iniciar Sesión"
+      give_back: "Como Ayudar"
+      sign_up: "Inscribirse"
