@@ -16,9 +16,9 @@ gem 'puma', '~> 3.11'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootstrap', '~> 4.0.0'
+gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'sass-rails'
-gem 'coffee-rails', '~> 4.2'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -29,14 +29,13 @@ gem 'coffee-rails', '~> 4.2'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'faraday'
 gem 'figaro'
-gem 'rails-html-sanitizer'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'capybara'
   gem 'launchy'
   gem 'orderly'
@@ -52,8 +51,7 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
 end
 
-
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
-gem "dockerfile-rails", ">= 1.5", :group => :development
+gem 'dockerfile-rails', '>= 1.5', group: :development
