@@ -5,7 +5,7 @@
 <h3> <%= t(".greeting_follow_up")%> </h3>
 <div id ="homepage">
     <%= form_with url: "/parks", method: :get, local: true do %>
-        <%= select_tag :state, options_for_select(us_states) %>
+        <%= select_tag :state, options_for_select(states, t(".states")) %>
         <%= submit_tag t(".find") , class: "btn" %>
 
     <% end %>
