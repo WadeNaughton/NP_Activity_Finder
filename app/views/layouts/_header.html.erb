@@ -8,7 +8,7 @@
 
             <%if logged_in?%>
                 <div id="form-header">
-                    <%= form_with url: "/users/#{current_user.id}/parks", method: :get, local: true do %>
+                    <%= form_with url: "/:locale/users/#{current_user.id}/parks", method: :get, local: true do %>
                         <%= select_tag :state, options_for_select(states, t(".states")) %>
                         <%= submit_tag t(".find"), class: "btn" %>
 
@@ -38,9 +38,9 @@
                     <%= t(".menu")%>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <%= link_to "Home", "/", :class => "nav-link"%>
-                        <%= link_to "Log In", "/login", :class => "nav-link"%>
-                        <%= link_to "Sign Up", "/users/new", :class => "nav-link"%>
+                        <%= link_to t(".home"), "/", :class => "nav-link"%>
+                        <%= link_to t(".log_in"), "/:locale/login", :class => "nav-link"%>
+                        <%= link_to t(".sign_up"), "/:locales/users/new", :class => "nav-link"%>
                     </div>
                 </div>
             <%end%>
