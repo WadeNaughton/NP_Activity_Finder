@@ -100,8 +100,8 @@
                 <div class="park-index">
                     <div class="row align-items-center">
                             <div class="col-lg-7">
-                                <p><h2> <%= link_to park.name, user_park_path(@user,park.park_code, :park_code => park.park_code, :state => @state)%></h2></p>
-                                <p> <%= link_to "View", user_park_path(@user,park.park_code, :park_code => park.park_code, :state => @state)%></p>
+                                <p><h2> <%= link_to park.name, user_park_path(current_user,park.park_code, :park_code => park.park_code, :state => @state)%></h2></p>
+                                <p> <%= link_to "View", user_park_path(current_user,park.park_code, :park_code => park.park_code, :state => @state)%></p>
 
                                 <p><%=park.description%></p>
                             </div>
