@@ -1,12 +1,14 @@
 class ParksController < ApplicationController
+# before_filter :set_locale
+
   def index
-    @user = User.find_by(id: session[:user_id])
+    # @user = User.find_by(id: session[:user_id])
     @parks = NationalParkFacade.get_parks_by_state(params[:state])
     @state = params[:state]
   end
 
   def show
-    @user = User.find_by(id: session[:user_id])
+    # @user = User.find_by(id: session[:user_id])
     @state_info = { park_code: params[:park_code], state: params[:state] }
     if NewPark.where(id: params[:id]).empty? && NewPark.where(park_code: params[:park_code]).empty?
       @park = NationalParkFacade.one_park(params[:park_code])
@@ -24,7 +26,6 @@ class ParksController < ApplicationController
       @weather = WeatherFacade.get_forecast(@park.latitude, @park.longitude)
     end
     @alerts = NationalParkFacade.get_alerts(@park.park_code)
-    # binding.pry
   end
 
   def accessible_places
