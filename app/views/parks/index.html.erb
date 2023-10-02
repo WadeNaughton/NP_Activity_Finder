@@ -7,7 +7,7 @@
                     <div class="row align-items-center">
                             <div class="col-lg-7">
                                 <p><h2> <%= link_to park.name, park_path(park.park_code, :park_code => park.park_code, :state => @state)%></h2></p>
-                                <p> <%= link_to "View", park_path(park.park_code, :park_code => park.park_code, :state => @state)%></p>
+                                <p> <%= link_to t(".view"), park_path(park.park_code, :park_code => park.park_code, :state => @state)%></p>
 
 
                                 <p><%=park.description%></p>
@@ -24,7 +24,7 @@
                                         <div class="accordion-header" id="headingOne">
                                         <h5 class="mb-0">
                                             <button class="button btn-hover" type="button" data-toggle="collapse" data-target="#collapseOne-<%=park.park_code%>" aria-expanded="true" aria-controls="collapseOne">
-                                            Address
+                                            <%= t(".address") %>
                                             </button>
                                         </h5>
                                         </div>
@@ -41,7 +41,7 @@
                                         <div class="accordion-header" id="headingThree">
                                         <h5 class="mb-0">
                                             <button class="button button-hover" type="button" data-toggle="collapse" data-target="#collapseThree-<%=park.park_code%>" aria-expanded="true" aria-controls="collapseThree">
-                                            Phone
+                                            <%= t(".phone") %>
                                             </button>
                                         </h5>
                                         </div>
@@ -57,7 +57,7 @@
                                         <div class="accordion-header" id="headingFour">
                                         <h5 class="mb-0">
                                             <button class="button btn-hover" type="button" data-toggle="collapse" data-target="#collapseFour-<%=park.park_code%>" aria-expanded="true" aria-controls="collapseFour">
-                                            Email
+                                            <%= t(".email") %>
                                             </button>
                                         </h5>
                                         </div>
@@ -73,7 +73,7 @@
                                         <div class="accordion-header" id="headingTwo">
                                         <h5 class="mb-0">
                                             <button class="button btn-hover" type="button" data-toggle="collapse" data-target="#collapseTwo-<%=park.park_code%>" aria-expanded="true" aria-controls="collapseTwo">
-                                            Directions
+                                            <%= t(".directions") %>
                                             </button>
                                         </h5>
                                         </div>
@@ -101,7 +101,7 @@
                     <div class="row align-items-center">
                             <div class="col-lg-7">
                                 <p><h2> <%= link_to park.name, user_park_path(current_user,park.park_code, :park_code => park.park_code, :state => @state)%></h2></p>
-                                <p> <%= link_to "View", user_park_path(current_user,park.park_code, :park_code => park.park_code, :state => @state)%></p>
+                                <p> <%= link_to t(".view"), user_park_path(current_user,park.park_code, :park_code => park.park_code, :state => @state)%></p>
 
                                 <p><%=park.description%></p>
                             </div>
@@ -117,7 +117,7 @@
                                         <div class="accordion-header" id="headingOne">
                                         <h5 class="mb-0">
                                             <button class="button btn-hover" type="button" data-toggle="collapse" data-target="#collapseOne-<%=park.park_code%>" aria-expanded="true" aria-controls="collapseOne">
-                                            Address
+                                            <%= t(".address") %>
                                             </button>
                                         </h5>
                                         </div>
@@ -134,7 +134,7 @@
                                         <div class="accordion-header" id="headingThree">
                                         <h5 class="mb-0">
                                             <button class="button button-hover" type="button" data-toggle="collapse" data-target="#collapseThree-<%=park.park_code%>" aria-expanded="true" aria-controls="collapseThree">
-                                            Phone
+                                            <%= t(".phone") %>
                                             </button>
                                         </h5>
                                         </div>
@@ -150,7 +150,7 @@
                                         <div class="accordion-header" id="headingFour">
                                         <h5 class="mb-0">
                                             <button class="button btn-hover" type="button" data-toggle="collapse" data-target="#collapseFour-<%=park.park_code%>" aria-expanded="true" aria-controls="collapseFour">
-                                            Email
+                                            <%= t(".email") %>
                                             </button>
                                         </h5>
                                         </div>
@@ -166,7 +166,7 @@
                                         <div class="accordion-header" id="headingTwo">
                                         <h5 class="mb-0">
                                             <button class="button btn-hover" type="button" data-toggle="collapse" data-target="#collapseTwo-<%=park.park_code%>" aria-expanded="true" aria-controls="collapseTwo">
-                                            Directions
+                                            <%= t(".directions") %>
                                             </button>
                                         </h5>
                                         </div>
