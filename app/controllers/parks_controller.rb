@@ -1,5 +1,4 @@
 class ParksController < ApplicationController
-# before_filter :set_locale
 
   def index
     # @user = User.find_by(id: session[:user_id])
