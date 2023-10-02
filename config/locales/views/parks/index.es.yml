@@ -1,0 +1,8 @@
+es:
+  parks:
+    index:
+      view: "Ver"
+      address: "Domicilio"
+      phone: "Telefono"
+      email: "Correo Electrónico"
+      directions: "Direcciones"
