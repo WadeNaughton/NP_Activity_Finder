@@ -7,3 +7,6 @@ en:
       home: "Home"
       log_in: "Log In"
       sign_up: "Sign Up"
+      edit: "Edit"
+      profile: "Profile"
+      log_out: "Log Out"
