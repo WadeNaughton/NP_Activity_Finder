@@ -19,10 +19,10 @@
                      Menu
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <%= link_to "Home", "/", :class => "nav-link"%>
-                        <%= link_to "Profile", "/users/#{current_user.id}", :class => "nav-link"%>
-                        <%= link_to "Edit", "/users/#{current_user.id}/edit", :class => "nav-link"%>
-                        <%= link_to "Log Out", "/logout", :class => "nav-link"%>
+                        <%= link_to t(".home"), "/", :class => "nav-link"%>
+                        <%= link_to t(".profile"), "/users/#{current_user.id}", :class => "nav-link"%>
+                        <%= link_to t(".edit"), "/users/#{current_user.id}/edit", :class => "nav-link"%>
+                        <%= link_to t(".log_out"), "/logout", :class => "nav-link"%>
                     </div>
                 </div>
             <%else%>
