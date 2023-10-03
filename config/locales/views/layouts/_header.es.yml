@@ -7,3 +7,6 @@ es:
       home: "Inicio"
       log_in: "Iniciar Sesión"
       sign_up: "Crear Cuenta Nueva"
+      edit: "Editar"
+      profile: "Perfil"
+      log_out: "Cerrar Sesión"
